@@ -1,6 +1,6 @@
 # Site settings
-title: "CTF (at) KIT (dot) edu"                 # TODO
-description: "Yeah, we play CTF and stuff."     # TODO
+title: "KITCTF"                 # TODO
+description: "<!-- flag{596f755f6172655f617765736f6d655f3a29} -->"     # TODO
 baseurl: ""
 url: "http://ctf.saelo.net"                     # TODO
 
@@ -14,3 +14,5 @@ permalink: pretty
 authors:
   saelo:
     url: https://twitter.com/5aelo 
+
+teamname: KITCTF

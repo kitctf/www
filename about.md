@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+We are {{ site.teamname }}, a team of KIT students with interests in infosec, coding and exploiting.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+If you're also a KIT student and want to be part of our team just contact us:
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+email: ctf@samuel-gross.de \\
+irc: #kitctf @ freenode  ([one-click-webclient](http://tinyurl.com/kitctf-irc))
