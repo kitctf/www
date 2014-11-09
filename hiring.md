@@ -11,7 +11,7 @@ Im Folgenden wollen wir dir näher bringen was wir hier machen und hoffentlich d
 
 
 ## Über uns
-Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten, die CTF als Hobby entdeckt haben.
+Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
 Momentan treffen wir uns 1x pro Woche um zu trainieren oder uns generell über Themen aus dem Bereich infosec auszutauschen.
 
 Siehe auch ([hier](/about)).
@@ -28,18 +28,18 @@ Am Ende gewinnt das Team mit den meisten Punkten.
 
 
 ## Aufgabenbereiche
-Hier wird einmal skizziert, welche Aufgabenbereiche während eines CTFs gefragt werden (können) und mit was wir uns dementsprechend im Rahmen unserer Studentegruppe beschäftigen.
+Hier soll einmal skizziert werden, welche Aufgabenbereiche während eines CTFs gefragt werden (können) und mit was wir uns dementsprechend im Rahmen unserer Studentengruppe beschäftigen.
 
 #### Binary Exploitation
-Der Klassiker! Gegeben sei eine kompilierte binary (manchmal mit source code), die analysiert werden soll, wobei eine Schwachstellen (meistens memory corruption bugs) gefunden  und einen Exploit geschrieben werden soll.
-Der Exploit, losgelassen auf den Server der Betreiber, liefert dann meistens shell Zugriff auf der Box und es findet sich eine Datei in welcher die Flag steht.
+Der Klassiker! Gegeben ist hier meistens eine kompilierte Binary (manchmal mit source code, manchmal mit symbols, oft aber ohne beides). Diese soll nun analysiert werden um Schwachstellen (meistens memory corruption bugs) zu finden. Anschließend wird ein Exploit geschrieben und auf den Server der Betreiber losgelassen. Dieser liefert dann meist shell Zugriff auf der Box und es findet sich eine Datei in welcher die Flag steht.
+Für die, die sich in dem Bereich schon etwas mehr auskennen: Natürlich kommen hier auch moderne Mitigations wie z.B. NX, ASLR und Stack Canaries zum Einsatz welche umgangen werden wollen. Je nach Schwierigkeitsgrad der Aufgabe sind mal mehr, mal weniger Mitigations aktiv.
 
 #### Sandboxing
 Hier geht es darum, selbstgestrickte Sandboxes zu brechen. Oft werden hier Sandboxes für diverse Skriptsprachen (beliebt ist Python) eingesetzt, es finden sich aber auch Sandboxes auf Basis von ([seccomp](http://en.wikipedia.org/wiki/Seccomp)).
 Generell verhindert die Sandbox mindestens das Ausführen beliebiger shell Befehle. Der Mechanismus soll dann umgangen und meist wiederum eine Datei (in der die Flag steht) vom Dateisystem gelesen werden.
 
 #### Reverse Engineering
-Meistens geht es hier nicht einfach nur darum, eine Binary reverse zu engineeren (das muss schon genug für Binary Exploitation gemacht werden), sondern z.B. darum, ein selbstgebautes Kompressionsschema zu reversen oder eine obfuscatete binary zu verstehen.
+Meistens geht es hier nicht einfach nur darum, eine Binary zu reversen (das muss schon genug für Binary Exploitation gemacht werden), sondern z.B. mal darum, ein selbstgebautes Kompressionsschema zu reversen oder das obfuscation Schema hinter einer binary zu verstehen.
 
 #### Kryptographie
 Ebenfalls beliebt sind Aufgaben aus dem Bereich Kryptographie.
@@ -47,24 +47,31 @@ Hier gibt es teilweise Aufgaben, bei denen es darum geht, selbstgebaute Cryptove
 
 #### Web Security
 Eigentlich immer dabei: Web Sicherheit.
-Hier sind natürlich die Klassiker SQLi und XSS sowie File Inclusion und Freunde, aber auch ein gutes Verständnis von Web Technologien generell gefragt. Außerdem ist häufig ein gutes Verständnis von Unix und CO (z.B. die Dateien unter /proc/self) und manchmal auch Kryptographie wichtig (z.B. um schwache Signaturschemata für Cookies mithilfe eines ([length extension Angriffes](http://en.wikipedia.org/wiki/Length_extension_attack)) zu brechen und sich so eine Session als Admin zu verschaffen).
-Oft werden auch exotischere Angriffe gefragt: NoSql- und Object Injection, Dom Clobbering, ... TODO
+Hier sind natürlich die Klassiker SQLi und XSS sowie File Inclusion und Freunde, aber auch ein gutes Verständnis von Web Technologien generell gefragt. Außerdem ist häufig ein gutes Verständnis von Unix und Co (z.B. die Dateien unter /proc/self) und manchmal auch Kryptographie wichtig (z.B. um schwache Signaturschemata für Cookies mithilfe eines ([length extension Angriffes](http://en.wikipedia.org/wiki/Length_extension_attack)) zu brechen und sich so eine Session als Admin zu verschaffen).
+Damit es abwechslungsreich bleibt werden eber oft auch "exotischere" Angriffe gefragt: NoSql- und Object Injection, Dom Clobbering, SSRF usw.
 
 #### Forensics
 Aufgaben aus dem Bereich Computer Forensics. Hier sollen z.B. "post-mortem" Systeme analysiert werden, beispielsweise ein Windows Disk-Image nach einer Vireninfektion oder ein Unix Web Server Image nach einem Einbruch.
 Außerdem beliebt sind Aufgaben bei denen ein packet capture file gegeben ist und aus diesem bestimmte Informationen entnommen werden sollen (z.B. Passwörter).
 
+#### Kernel Exploitation
+Kernel exploitation challenges kommen eher selten vor (und dann meist bei on-site Events), da praktisch für jedes Team ein eigener Server eingerichtet werden muss - ein fehlgeschlagener exploit Versuch und die Maschine muss neu gestartet werden.
+Hierbei geht es darum Schwachstellen im Betriebssystemkern (meistens einem selbstgeschriebenen Treiber) zu finden und auszunutzen um sich erweiterte Rechte auf dem System zu verschaffen (unter Linux meist root).
+
+Generell kann man es aber auch in anderen Aufgabenbereichen (z.B. Reversing) mal mit einem (selbsgebauten oder modifizierten) Kernel zu tun haben. ;)
+
 #### Recon
 Eher selten und mit weniger Punkten belegt sind Aufgaben im Bereich Recon. Hierbei geht es meist darum durch geschicktes Suchen im Internet Informationen über Personen herauszufinden.
 
 #### Coding
-Hier bekommt man eine Aufgabe gestellt und soll diese Programmieren. I.d.R. erhält man einen Netzwerkzugang und soll in einem kurzen Zeitraum (1-3s) eine oder mehrere Aufgabe lösen. Der Zeitraum ist normalerweise für einen Menschen zu kurz. Klassisches Beispiel wäre eine Art Captcha maschinell zu lösen.
+Nicht unbedingt Security related aber trotzdem ab und zu gesehen.
+Hier geht es darum einen Algorithmus für ein gegebenens Problem zu entwerfen und zu implementieren.
+Gegeben wird hier meist eine Beschreibung des Problems sowie die Adresse eines Servers welcher einem Probleminstanzen liefert (welche meist innerhalb kurzer Zeit gelöst werden müssen). Liefert man dem Server die korrekten Ergebnisse so gibt dieser einem im Ausgleich die flag.
 
-
-TODO Message: das ist das Zeug was im realen Leben/Industrie relevant ist.
 
 Das sind die Häufigsten Kategorien. Oft finden sich aber auch Aufgaben aus ganz anderen Bereichen (nicht mal unbedingt aus dem Bereich Computer Science). CTF Veranstalter sind da häufig kreativ. ;)
 
+TODO: The main message to take away here is that the stuff you're learning for/during a CTF is what matters in real-life infosec :)
 
 ## Motivation
 Falls du immer noch nicht überzeugt bist, gibt es hier noch ein paar weitere Gründe, warum sich CTF spielen lohnt:
