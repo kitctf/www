@@ -12,7 +12,7 @@ Im Folgenden wollen wir dir näher bringen was wir hier machen und hoffentlich d
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten, die CTF als Hobby entdeckt haben.
-Momentan treffen wir uns 1x pro Woche um zu trainieren oder uns generell über Themen aus dem Bereich IT Security auszutauschen.
+Momentan treffen wir uns 1x pro Woche um zu trainieren oder uns generell über Themen aus dem Bereich infosec auszutauschen.
 
 Siehe auch ([hier](/about)).
 
@@ -61,7 +61,7 @@ Eher selten und mit weniger Punkten belegt sind Aufgaben im Bereich Recon. Hierb
 Hier bekommt man eine Aufgabe gestellt und soll diese Programmieren. I.d.R. erhält man einen Netzwerkzugang und soll in einem kurzen Zeitraum (1-3s) eine oder mehrere Aufgabe lösen. Der Zeitraum ist normalerweise für einen Menschen zu kurz. Klassisches Beispiel wäre eine Art Captcha maschinell zu lösen.
 
 
-TODO Message: das ist das Zeug was im realen leben relevant ist.
+TODO Message: das ist das Zeug was im realen Leben/Industrie relevant ist.
 
 Das sind die Häufigsten Kategorien. Oft finden sich aber auch Aufgaben aus ganz anderen Bereichen (nicht mal unbedingt aus dem Bereich Computer Science). CTF Veranstalter sind da häufig kreativ. ;)
 
@@ -80,7 +80,9 @@ Generell sollte sich CTF spielen auch für die weitere Informatik Laufbahn (und 
 ## Was solltest du schon können?
 Generell reicht es wenn du Interesse am Subjekt hast und ein wenig Zeit aufbringen kannst um dich in die ensprechenden Themen einzuarbeiten. Es muss natürlich auch nicht jeder alles können. Lieber in einem Feld gut sein als in allen ein bisschen was können.
 Du solltest außerdem über grundlegende Englischkenntnisse verfügen da die CTFs i.d.R immer auf Englisch sind.
+
 Was außerdem nicht schaden kann:
+
 - Linux/Unix Kentnisse
 - Kentnisse von C und z.B. Python
 - Generelles Verständnis von IT Sicherheit
@@ -90,7 +92,8 @@ Was außerdem nicht schaden kann:
 ## Interesse geweckt?
 Super! Erreichen kannst du uns z.B. via IRC: #kitctf @ freenode ([one-click-webclient](http://tinyurl.com/kitctf-irc))
 oder auch per Mail an ctf@samuel-gross.de :)
+
 Außerdem könnten dich folgende Seiten noch interessieren:
-- resources
-- tools
-- first-steps
+
+- ([Infosec resources](/resources))
+- ([CTF first steps](/first-steps))
