@@ -23,8 +23,10 @@ Das bekannteste CTF (sozusagen die Weltmeisterschaft) ist das DEFCON CTF, welche
 
 Bei einem CTF gibt es Aufgaben aus verschiedenen Bereichen der Informatik und IT-Sicherheit (s.u.).
 Für das Lösen einer Aufgabe (konkret das Einreichen der korrekten Flag - einfach eine Zeichenkette - im Web Portal) erhalten die Teams Punkte, deren Höhe sich nach der Schwierigkeit der Aufgabe richtet (meist zwischen 50 und 500 Punkten).
-Am Ende gewinnt das Team mit den meisten Punkten (doh).
+Am Ende gewinnt das Team mit den meisten Punkten.
 
+## Requirements/Vorraussetzungen
+Eigentlich garkeine. Gut, ein Internetzugang ist sinnvoll und grundlegende Englischkenntnisse können auch nicht schaden, da die Aufgaben i.d.R. auf Englisch sind.
 
 ## Aufgabenbereiche
 Hier wird einmal skizziert, welche Aufgabenbereiche während eines CTFs gefragt werden (können) und mit was wir uns dementsprechend hier beschäftigen.
@@ -50,15 +52,20 @@ Eigentlich immer dabei: Web Sicherheit.
 Hier sind natürlich die Klassiker SQLi und XSS sowie File Inclusion und Freunde, aber auch ein gutes Verständnis von Web Technologien generell gefragt. Außerdem ist häufig ein gutes Verständnis von Unix und CO (z.B. die Dateien unter /proc/self) und manchmal auch Cryptographie wichtig (z.B. um schwache Signaturschemata für Cookies mithilfe eines ([length extension Angriffes](http://en.wikipedia.org/wiki/Length_extension_attack)) zu brechen und sich so eine Session als Admin zu verschaffen).
 Oft werden auch exotischere Angriffe gefragt: NoSql- und Object Injection, Dom Clobbering, ... TODO
 
-#### Misc
-TODO
-
 #### Forensics
-TODO
+Hier bekommt man eine Logdatei oder packat capture file (pcap) und soll herausfinden was geschehen ist. Das kann im einfachsten fall einfach als klartext irgendwo drin stehen, aber auch zb verschlüsselt. Es ist auch denkbar, dass ein diskimage oder memoryimage gegeben wird und man soll daraus irgendwelche Informationen gewinnen.
 
 #### Recon
-TODO
+Eher selten und mit weniger Punkten belegt sind Aufgaben im Vereich recon. Hierbei geht es darum Informationen über irgendetwas herauszufinden. Zum Beispiel muss man die Dating seite einer Person finden auf der die flag steht, allerdings ist die Aufgabe über einen Umweg gestellt. Zum Beispiel: Finden Sie herraus wie man mit Person XY ein Date bekommt.
 
+#### Coding
+Hier bekommt man eine Aufgabe gestellt und soll diese Programmieren. I.d.R. erhält man einen Netzwerkzugang und soll in einem kurzen Zeitraum (1-3s) eine oder mehrere Aufgabe lösen. Der Zeitraum ist normalerweise für einen Menschen zu kurz. Klassisches Beispiel wäre eine Art Captcha maschinell zu lösen.
+
+#### Misc
+Hier landen alle challs, die nicht klar in eine Kategorie passen. Das könnten z.B. coding oder Captcha knack Aufgaben sein. Aber auch etwas völlig Anderes, wie z.B. eine versteckte Flag auf der Seite zu finden (Tipp: Sowas gibts hier auf der Seite auch, Format: `flag{str2hex(...)}`). 
+
+#### Trivia
+Hier kann so ziemlich jeder sofort Punkte holen. Die Flag ist zum Beispiel direkt in der Aufgabe gegeben und muss nur eingegeben werden oder 
 
 ## Motivation
 Falls du immer noch nicht überzeugt bist, gibt es hier ein paar weitere Gründe, warum sich CTF spielen lohnt:
@@ -73,3 +80,24 @@ Generell sollte sich CTF spielen auch für die weitere Informatik Laufbahn (und 
 ## Du hast Interesse?
 Super! Erreichen kannst du uns z.B. via IRC: #kitctf @ freenode ([one-click-webclient](http://tinyurl.com/kitctf-irc))
 oder auch per Mail an ctf@samuel-gross.de :)
+
+## Grundlagen
+Hier ein paar Grundlagen, die am Anfang hilfreich sein können.
+
+#### Flag
+Sie zu finden ist das ziel. Das Layout ist meist angegeben. Beispiel:
+
+- `flag{das_ist_die_flag}`
+- `flag{75c3a63d546d0e7739ff0552c55a3e39e3155d68}` ein Hashwert fester Länge
+
+Man reicht dann entweder nur `das_ist_die_flag` oder `flag{das_ist_die_flag}` ein.
+
+#### nc/netcat/telnet/ssh
+Meist ist eine Verbindung mit angegeben `nc 1.2.3.4 1337`. Unter Linux kann man das so in die shell eingeben und erhält dann eine meist ASCII basierte Socketverbindung zum Server. Das Selbe gilt für netcat.
+
+Bei telnet wird `telnet` meist nicht explizit mit angegeben sondern nur eine IP und ein Port (Bsp HTTP: `telnet 1.2.3.4 http` oder `telnet 1.2.3.4 80`)
+
+Falls es eine SSH verbindung ist steht das dabei und sieht irgendwie so aus: `ssh nutzer@1.2.3.4`
+
+#### Writeup
+Sind Lösungen einzelner Aufgaben vergangener CTFs. Diese sind i.d.R. in englisch und mal mehr, mal weniger ausführlich.
