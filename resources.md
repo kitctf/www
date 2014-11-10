@@ -41,6 +41,8 @@ Some Resources to get you started with CTF and infosec.
 - [Accuvant Labs](http://www.accuvant.com/blog/)
 - [Matasano](http://matasano.com/research/)
 - [MWR Labs](http://labs.mwrinfosecurity.com/blog)
+- [SektionEins](https://www.sektioneins.de/en/categories/blog.html)
+- [Phenoelit](http://phenoelit.org/blog/)
 
 ### Books
 - Hacking - The Art of Exploitation
