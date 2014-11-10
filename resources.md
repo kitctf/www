@@ -4,19 +4,19 @@ title: Resources
 permalink: /resources/
 ---
 
-Some Resources to get you started with CTF and infosec.
+Some Resources to get you started with CTF and infosec in general.
 
 ## CTF
-* [Trail of Bits guide to CTF](https://trailofbits.github.io/ctf/)
-* [CTF writeup repository](https://github.com/ctfs/write-ups)
-* [Blog post on how to get started with CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
+- [Trail of Bits guide to CTF](https://trailofbits.github.io/ctf/)
+- [CTF writeup repository on github](https://github.com/ctfs/write-ups)
+- [Blog post on how to get started with CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
 
 ## General infosec
 
 ### Mailing lists
-- full-disclosure
-- bugtraq
-- oss-sec
+- [full-disclosure](http://seclists.org/fulldisclosure/)
+- [bugtraq](http://seclists.org/bugtraq/)
+- [oss-sec](http://seclists.org/oss-sec/)
 
 ### IRC channels (freenode)
 - \#metasploit
@@ -54,7 +54,7 @@ Some Resources to get you started with CTF and infosec.
 - iOS Hacker’s Handbook
 - Android Hacker’s Handbook
 
-Another list of books relevant for infosec can be found [here](http://dfir.org/?q=node/8).
+Another good list of books relevant for infosec can be found [here](http://dfir.org/?q=node/8).
 
 ### E-Books
 - [RE for Beginners](http://yurichev.com/writings/RE_for_beginners-en.pdf)
@@ -62,4 +62,4 @@ Another list of books relevant for infosec can be found [here](http://dfir.org/?
 ### Others
 - [r/netsec on reddit](http://www.reddit.com/r/netsec/)
 - [Phrack](http://www.phrack.org/)
-- [Twitter](https://twitter.com) (need to know who to follow)
+- [Twitter](https://twitter.com) (if you know who to follow)

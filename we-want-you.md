@@ -98,7 +98,7 @@ Was außerdem nicht schaden kann:
 
 
 ## Interesse geweckt?
-Super! Erreichen kannst Du uns z.B. via IRC: #kitctf @ freenode ([one-click-webclient](http://tinyurl.com/kitctf-irc))
+Super! Erreichen kannst Du uns z.B. via IRC: #kitctf auf freenode ([one-click-webclient](http://tinyurl.com/kitctf-irc))
 oder auch per Mail an [ctf@samuel-gross.de](mailto:ctf@samuel-gross.de) :)
 
 Außerdem könnten Dich noch folgende Seiten interessieren:
