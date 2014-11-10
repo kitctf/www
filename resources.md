@@ -8,8 +8,8 @@ Some Resources to get you started with CTF and infosec in general.
 
 ## CTF
 - [Trail of Bits guide to CTF](https://trailofbits.github.io/ctf/)
-- [CTF writeup repository on github](https://github.com/ctfs/write-ups)
 - [Blog post on how to get started with CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
+- [CTF writeup repository on github](https://github.com/ctfs/write-ups)
 
 ## General infosec
 
