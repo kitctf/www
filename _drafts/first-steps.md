@@ -11,7 +11,7 @@ TODO
 Hier ein paar Begriffe, die am Anfang hilfreich sein können.
 
 ### Flag
-Sie zu finden ist das ziel. Das Layout ist meist angegeben. Beispiel:
+Sie zu finden ist das Ziel. Das Layout ist meist angegeben. Beispiel:
 
 - `flag{das_ist_die_flag}`
 - `flag{75c3a63d546d0e7739ff0552c55a3e39e3155d68}` ein Hashwert fester Länge
