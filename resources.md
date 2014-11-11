@@ -33,7 +33,7 @@ Some Resources to get you started with CTF and infosec in general.
 - SyScan
 - HITB
 
-### Blogs from various companies/people
+### Blogs from various companies
 - [Exodus Intelligence](http://blog.exodusintel.com/)
 - [Vupen](http://www.vupen.com/blog/)
 - [Include Security](http://blog.includesecurity.com/)
