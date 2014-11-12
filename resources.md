@@ -7,9 +7,32 @@ permalink: /resources/
 Some Resources to get you started with CTF and infosec in general.
 
 ## CTF
+
 - [Trail of Bits guide to CTF](https://trailofbits.github.io/ctf/)
 - [Blog post on how to get started with CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
+
 - [CTF writeup repository on github](https://github.com/ctfs/write-ups)
+
+- [Previous CTF Challenges](http://repo.shell-storm.org/CTF/)
+- [Over The Wire Wargames](http://overthewire.org/wargames/)
+
+### How to get started in...
+
+#### Binary Exploitation
+
+- Book: Hacking: The Art of Exploitation
+- [microcorruption](https://microcorruption.com)
+
+#### Cryptography
+
+- [cryptopals](http://cryptopals.com/)
+
+#### Web Security
+
+- [XSS Game](https://xss-game.appspot.com/)
+- [Web Wargames](http://overthewire.org/wargames/natas/)
+
+
 
 ## General infosec
 
@@ -61,5 +84,7 @@ Another good list of books relevant for infosec can be found [here](http://dfir.
 
 ### Others
 - [r/netsec on reddit](http://www.reddit.com/r/netsec/)
+- [r/netsecstudents wiki](http://www.reddit.com/r/netsecstudents/wiki/index)
 - [Phrack](http://www.phrack.org/)
-- [Twitter](https://twitter.com) (if you know who to follow)
+- [Twitter](https://twitter.com)
+- [Open Security Training](http://opensecuritytraining.info/)
