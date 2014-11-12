@@ -20,7 +20,7 @@ Some Resources to get you started with CTF and infosec in general.
 
 #### Binary Exploitation
 
-- Book: Hacking: The Art of Exploitation
+- Book - Hacking: The Art of Exploitation
 - [microcorruption](https://microcorruption.com)
 
 #### Cryptography
@@ -31,11 +31,10 @@ Some Resources to get you started with CTF and infosec in general.
 
 - [XSS Game](https://xss-game.appspot.com/)
 - [Web Wargames](http://overthewire.org/wargames/natas/)
-- [SQLi Challenges] http://www.zixem.altervista.org/SQLi/
+- [SQLi Challenges](http://www.zixem.altervista.org/SQLi/)
 
 
-
-## General infosec
+## General infosec resources
 
 ### Mailing lists
 - [full-disclosure](http://seclists.org/fulldisclosure/)
@@ -85,7 +84,7 @@ Another good list of books relevant for infosec can be found [here](http://dfir.
 
 ### Others
 - [r/netsec on reddit](http://www.reddit.com/r/netsec/)
-- [r/netsecstudents wiki](http://www.reddit.com/r/netsecstudents/wiki/index)
+- [r/netsecstudents](http://www.reddit.com/r/netsecstudents) (also check out the wiki on those pages)
 - [Phrack](http://www.phrack.org/)
 - [Twitter](https://twitter.com)
 - [Open Security Training](http://opensecuritytraining.info/)
