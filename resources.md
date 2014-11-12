@@ -6,7 +6,7 @@ permalink: /resources/
 
 Some Resources to get you started with CTF and infosec in general.
 
-## CTF
+## CTF in general
 
 - [Trail of Bits guide to CTF](https://trailofbits.github.io/ctf/)
 - [Blog post on how to get started with CTF](http://www.endgame.com/blog/how-to-get-started-in-ctf.html)
@@ -16,29 +16,48 @@ Some Resources to get you started with CTF and infosec in general.
 - [Previous CTF Challenges](http://repo.shell-storm.org/CTF/)
 - [Over The Wire Wargames](http://overthewire.org/wargames/)
 
-### How to get started in...
+## How to get started in...
 
-#### Binary Exploitation
+(Also see the section on recommended books further down)
 
-- Book - Hacking: The Art of Exploitation
+### Binary Exploitation
+
+- [A Journey into Exploitation](http://myne-us.blogspot.de/2010/08/from-0x90-to-0x4c454554-journey-into.html)
+- [History of Memory Corruption Attacks (pdf)](https://media.blackhat.com/bh-us-10/whitepapers/Meer/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf)
+
 - [microcorruption](https://microcorruption.com)
 
-#### Cryptography
+### Cryptography
 
 - [cryptopals](http://cryptopals.com/)
 
-#### Web Security
+### Web Security
 
 - [XSS Game](https://xss-game.appspot.com/)
 - [Web Wargames](http://overthewire.org/wargames/natas/)
 - [SQLi Challenges](http://www.zixem.altervista.org/SQLi/)
 
 
-## General infosec resources
+## InfoSec Books ...
+- Hacking - The Art of Exploitation
+- Practical Reverse Engineering
+- A Guide to Kernel Exploitation
+- Reversing - Secrets of Reverse Engineering
+- The Shellcoder’s Handbook
+- Web Application Hacker’s Handbook
+- iOS Hacker’s Handbook
+- Android Hacker’s Handbook
 
-### Additional resources
+Another good list of books relevant for infosec can be found [here](http://dfir.org/?q=node/8).
 
-- [it-sec-catalog](https://code.google.com/p/it-sec-catalog/wiki/Exploitation)
+## ... and E-Books
+- [RE for Beginners](http://yurichev.com/writings/RE_for_beginners-en.pdf)
+
+## Other Great Resource Collections
+
+- [Exploitation Wiki](https://code.google.com/p/it-sec-catalog/wiki/Exploitation)
+
+## Staying up-to-date in InfoSec
 
 ### Mailing lists
 - [full-disclosure](http://seclists.org/fulldisclosure/)
@@ -71,24 +90,8 @@ Some Resources to get you started with CTF and infosec in general.
 - [SektionEins](https://www.sektioneins.de/en/categories/blog.html)
 - [Phenoelit](http://phenoelit.org/blog/)
 
-### Books
-- Hacking - The Art of Exploitation
-- Practical Reverse Engineering
-- A Guide to Kernel Exploitation
-- Reversing - Secrets of Reverse Engineering
-- The Shellcoder’s Handbook
-- Web Application Hacker’s Handbook
-- iOS Hacker’s Handbook
-- Android Hacker’s Handbook
-
-Another good list of books relevant for infosec can be found [here](http://dfir.org/?q=node/8).
-
-### E-Books
-- [RE for Beginners](http://yurichev.com/writings/RE_for_beginners-en.pdf)
-
-### Others
+### Other
 - [r/netsec on reddit](http://www.reddit.com/r/netsec/)
 - [r/netsecstudents](http://www.reddit.com/r/netsecstudents) (also check out the wiki on those pages)
 - [Phrack](http://www.phrack.org/)
 - [Twitter](https://twitter.com)
-- [Open Security Training](http://opensecuritytraining.info/)
