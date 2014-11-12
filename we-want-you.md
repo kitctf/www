@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "We want you..."
+categories: exclude
 permalink: /we-want-you/
 ---
 
