@@ -31,7 +31,7 @@ Some Resources to get you started with CTF and infosec in general.
 
 - [XSS Game](https://xss-game.appspot.com/)
 - [Web Wargames](http://overthewire.org/wargames/natas/)
-- [SQLi Challenges] http://www.zixem.altervista.org/SQLi/
+- [SQLi Challenges](http://www.zixem.altervista.org/SQLi/)
 
 
 
