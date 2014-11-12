@@ -37,6 +37,10 @@ Some Resources to get you started with CTF and infosec in general.
 
 ## General infosec
 
+### Additional resources
+
+- [it-sec-catalog](https://code.google.com/p/it-sec-catalog/wiki/Exploitation)
+
 ### Mailing lists
 - [full-disclosure](http://seclists.org/fulldisclosure/)
 - [bugtraq](http://seclists.org/bugtraq/)
