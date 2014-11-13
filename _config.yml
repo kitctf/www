@@ -1,6 +1,6 @@
 # Site settings
 title: "KITCTF"
-description: "We play CTF and stuff...<!-- flag{596f755f6172655f617765736f6d655f3a29} -->"
+description: "We play CTF and stuff..."
 baseurl: ""
 url: "http://kitctf.de"
 
@@ -13,6 +13,6 @@ permalink: pretty
 # Authors
 authors:
   saelo:
-    url: https://twitter.com/5aelo 
+    url: https://twitter.com/5aelo
 
 teamname: KITCTF

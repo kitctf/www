@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Staying up-to-date in infosec"
-categories: sticky
+title: "Staying up to date in infosec"
+categories: learning
 author: saelo
 permalink: /staying-up-to-date/
 ---
