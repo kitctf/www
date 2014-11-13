@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Getting Started"
+title: "Getting Started with CTF"
 categories: sticky
+author: saelo
 permalink: /getting-started/
 ---
 
-Some Resources to get you started with CTF and infosec in general. Make sure to also check out our [resource collection](/resources).
+Here we've created a small guide to get you started with CTF and more or less infosec in general. There are a few selected resources for each of the major CTF disciplines that should help you get up to speed in those. Also feel free to check out our other resource pages.
 
 ## CTF in general
 
@@ -15,14 +16,16 @@ Other than that you'll usually learn a lot from writeups for CTF challenges (esp
 
 If you want to practice a bit (and you definately should!) you can always take a look at previous CTF challenges [here](http://repo.shell-storm.org/CTF/) or the [over the wire wargames](http://overthewire.org/wargames/), but first check out the following section.
 
+Also you should make yourself familiar with [ctftime.org](https://ctftime.org/). The site keeps a global team rating for all CTFs and upcoming events will be announced there. You'll also find some other useful things around the site.
+
 ## How to get started in...
 
 ### Binary Exploitation
 
 Personally I can strongly recommend the book ["Hacking - The Art of Exploitation"](http://www.nostarch.com/hacking2.htm).
-There is also the following (huge) tutorial on exploitaion: [A Journey into Exploitation](http://myne-us.blogspot.de/2010/08/from-0x90-to-0x4c454554-journey-into.html).
+There is also the following (huge) tutorial on exploitation: [A Journey into Exploitation](http://myne-us.blogspot.de/2010/08/from-0x90-to-0x4c454554-journey-into.html).
 
-For a nice overview over memory corruption bugs and exploitation see this whitepaper: [History of Memory Corruption Attacks (pdf)](https://media.blackhat.com/bh-us-10/whitepapers/Meer/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf).
+For a nice overview on memory corruption bugs and exploitation see this whitepaper: [History of Memory Corruption Attacks (pdf)](https://media.blackhat.com/bh-us-10/whitepapers/Meer/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf).
 That should get you up to speed on memory corruption bugs so you can recognize these vulns in the challenges and then do more research on them if needed.
 
 To develop some more practical skills you can take a look at the [microcorruption](https://microcorruption.com) game. It's a browser based exploitation course guiding you through memory corruption exploitation on an embedded platform. It's designed for beginners but you will need to read up on the topics on your own.
@@ -50,4 +53,4 @@ To get started with reversing you'll probably want make yourself familiar with s
 After that a good idea is to grab a disassembler (see our tools page [here](/tools)) and compile some self written c code. Afterwards load the binary into your disassembler of choice to see what the compiler generated. This will give you a good feeling for assembly and help you recognize patterns and functions in disassembled binaries.
 You can also take a look at some crackmes (for example from [here](http://www.crackmes.de/)) to get some hands-on experience.
 
-Moreover there is the book ["Reversing - Secrets of Reverse Engineering"](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0764574817.html) which I can recommend.
+Moreover I can recommend the book ["Reversing - Secrets of Reverse Engineering"](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0764574817.html) and (if you already have some reversing skills) ["Practical Reverse Engineering"](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118787315,subjectCd-CSJ0.html).

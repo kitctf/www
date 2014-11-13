@@ -2,12 +2,12 @@
 layout: post
 title: "Staying up-to-date in infosec"
 categories: sticky
+author: saelo
 permalink: /staying-up-to-date/
 ---
 
-Probably the best way to (easily) stay up-to-date in infosec is [r/netsec on reddit](http://www.reddit.com/r/netsec/).
-There you'll usually find out about new, interesting stuff within a couple hours.
-Twitter is probably a bit faster but there you'll obviously need to know who to follow first ;)
+tl;dr just subscribe to [r/netsec on reddit](http://www.reddit.com/r/netsec/).\\
+The following is a list of sources to help you stay up-to-date in infosec. If you're just starting out it probably still can't hurt to read some of the posts and try to understand them. More often than not they'll also point you to introductory resources for the topic.
 
 ### Mailing lists
 - [full-disclosure](http://seclists.org/fulldisclosure/)
@@ -49,3 +49,6 @@ A lot of companies active in the infosec industry have their own research blogs.
 
 ## Other
 - [Phrack](http://www.phrack.org/)
+
+In general most of the interesting stuff sooner or later ends being posted to [r/netsec on reddit](http://www.reddit.com/r/netsec/).
+Twitter is probably a bit faster but there you'll obviously need to know who to follow first ;)
