@@ -1,6 +1,7 @@
 ---
-layout: page
-title: "Staying up-to-date"
+layout: post
+title: "Staying up-to-date in infosec"
+categories: sticky
 permalink: /staying-up-to-date/
 ---
 

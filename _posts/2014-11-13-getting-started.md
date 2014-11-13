@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Getting Started"
+categories: sticky
 permalink: /getting-started/
 ---
 
