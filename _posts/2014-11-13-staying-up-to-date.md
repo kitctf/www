@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Staying up to date in infosec"
+title: "Staying up-to-date in infosec"
 categories: learning
 author: saelo
 permalink: /staying-up-to-date/
@@ -22,7 +22,7 @@ The following is a list of sources to help you stay up-to-date in infosec. If yo
 
 ### Talks from various conferences
 
-Usually the slides (and possibly whitepapers or even videos) of the talks will be published on the conference website a couple of days after the conference ended. These are often a great way to learn about current research in the infosec community.
+Usually the slides (and possibly white papers or even videos) of the talks will be published on the conference website a couple of days after the conference ended. These are often a great way to learn about current research in the infosec community.
 
 - Chaos Communication Congress (C3)
 - Infiltrate Con
