@@ -1,6 +1,5 @@
 # Site settings
 title: "KITCTF"
-description: "We play CTF and stuff..."
 baseurl: ""
 url: "http://kitctf.de"
 
