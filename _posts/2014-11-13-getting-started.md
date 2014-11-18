@@ -32,7 +32,8 @@ There is also the following extensive tutorial on exploitation: [A Journey into 
 For a nice overview on memory corruption bugs and exploitation see this white paper: [History of Memory Corruption Attacks (pdf)](https://media.blackhat.com/bh-us-10/whitepapers/Meer/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf).
 That should get you up to speed on memory corruption bugs so you can recognize these vulns in the challenges and then do more research on them if needed.
 
-To develop some more practical skills you can take a look at the [microcorruption](https://microcorruption.com) game. It's a browser based exploitation course guiding you through memory corruption exploitation on an embedded platform. It's designed for beginners but you will need to read up on the topics on your own.
+To develop some more practical skills you can take a look at the [microcorruption](https://microcorruption.com) game. It's a browser based exploitation course guiding you through memory corruption exploitation on an embedded platform. It's designed for beginners but you will need to read up on the topics on your own.\\
+Also, you can give the [exploit-excercises](https://exploit-exercises.com/) or the [overthewire wargames](http://overthewire.org/wargames/) mentioned above a try.
 
 ### Cryptography
 
@@ -61,5 +62,5 @@ Moreover I can recommend the books ["Reversing - Secrets of Reverse Engineering"
 
 ### Coding
 
-While not really a core CTF discipline some good coding skills will definitely proof useful (not only for CTF obviously). There are some nice sites to practice out there, like [talentbuddy](http://www.talentbuddy.co/) or [hackerrank](https://www.hackerrank.com/).\\
-Also there are some coding contests to participate in like [Google Code Jam](https://code.google.com/codejam/) or [codeforces](http://codeforces.com/).
+While not really a core CTF discipline some good coding skills will definitely proof useful (not only for CTF obviously). There are some nice sites to practice on out there, for example [talentbuddy](http://www.talentbuddy.co/) or [hackerrank](https://www.hackerrank.com/).\\
+Also, there are some websites organizing regular coding contests like the [Google Code Jam](https://code.google.com/codejam/), [topcoder](https://www.topcoder.com) or [codeforces](http://codeforces.com/).
