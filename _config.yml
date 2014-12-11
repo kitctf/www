@@ -7,7 +7,7 @@ github: kitctf
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
 
 # Authors
 authors:
