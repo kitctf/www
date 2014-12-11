@@ -374,3 +374,19 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* Tables */
+/* ----------------------------------------------------------*/
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: solid 1px #000;
+}
+
+td {
+  padding: 0.4em 0.6em;
+  border: solid 1px #000;
+}
