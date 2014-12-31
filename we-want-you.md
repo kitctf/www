@@ -99,8 +99,4 @@ Was außerdem nicht schaden kann:
 
 
 ## Interesse geweckt?
-Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](http://tinyurl.com/kitctf-irc)) oder auch per Mail an [ctf@samuel-gross.de](mailto:ctf@samuel-gross.de) :)
-
-Außerdem könnten Dich noch folgende Seiten interessieren:
-
-- [Infosec Ressourcen](/resources)
+Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](/irc)) oder auch per Mail an [ctf@samuel-gross.de](mailto:ctf@samuel-gross.de) :)

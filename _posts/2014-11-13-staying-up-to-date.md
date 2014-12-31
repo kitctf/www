@@ -3,7 +3,6 @@ layout: post
 title: "Staying up-to-date in infosec"
 categories: learning
 author: saelo
-permalink: /staying-up-to-date/
 ---
 
 tl;dr just subscribe to [r/netsec on reddit](http://www.reddit.com/r/netsec/).\\
@@ -49,6 +48,7 @@ A lot of companies active in the infosec industry have their own research blogs.
 
 ## Other
 - [Phrack](http://www.phrack.org/)
+- [PoC\|\|GTFO](https://www.alchemistowl.org/pocorgtfo/)
 
 In general most of the interesting stuff sooner or later ends being posted to [r/netsec on reddit](http://www.reddit.com/r/netsec/).
 Twitter is probably a bit faster but there you'll obviously need to know who to follow first ;)

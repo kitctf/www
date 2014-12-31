@@ -1,6 +1,5 @@
 # Site settings
 title: "KITCTF"
-description: "We play CTF and stuff..."
 baseurl: ""
 url: "http://kitctf.de"
 
@@ -8,7 +7,7 @@ github: kitctf
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
 
 # Authors
 authors:
