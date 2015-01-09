@@ -14,7 +14,7 @@ layout: default
     {% endfor %}
     {% for post in site.posts %}
       {% assign sticky = false %}
-      {% for cat in post.categories %} <!-- roll through this pages categories to find if it is sticky -->
+      {% for cat in post.categories %}
         {% if cat == 'sticky' %}
           {% assign sticky = true %}
         {% endif %}

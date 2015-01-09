@@ -136,6 +136,12 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.category {
+    margin-bottom: 25px;
+    font-size: 150%;
+}
+
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -377,8 +383,6 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
-<<<<<<< HEAD
-=======
 
 /* Tables */
 /* ----------------------------------------------------------*/
@@ -395,4 +399,3 @@ td {
   padding: 0.4em 0.6em;
   border: solid 1px #000;
 }
->>>>>>> 310eb1ce05b2fd11be3dbb55579fc9484f076584
