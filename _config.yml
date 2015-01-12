@@ -4,6 +4,7 @@ baseurl: ""
 url: "http://kitctf.de"
 
 github: kitctf
+twitter: KITCTF
 
 # Build settings
 markdown: kramdown
