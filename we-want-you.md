@@ -99,4 +99,4 @@ Was außerdem nicht schaden kann:
 
 
 ## Interesse geweckt?
-Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](/irc)) oder auch per Mail an [ctf@samuel-gross.de](mailto:ctf@samuel-gross.de) :)
+Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](/irc)) oder per Mail an [ctf@samuel-gross.de](mailto:ctf@samuel-gross.de) oder schau einfach mal bei einem unserer wöchentlichen Treffen vorbei, momentan immer Mittwochs ab 13:37 Uhr am SCC, Raum -102 :)
