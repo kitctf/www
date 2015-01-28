@@ -51,7 +51,7 @@ Ultimately web hacking really isn't about (automated) tools, so don't start runn
 
 You'll need a disassembler: Basically you have the choice between [radare2](https://github.com/radare/radare2), [hopper](http://www.hopperapp.com/) and [IDA Pro](https://www.hex-rays.com/products/ida/) (there's a free/evaluation version available for both, hopper and IDA). IDA Pro is pretty much the industry standard tool for reverse engineering (and thus relatively pricey).
 
-For debugging you'll definitely want to make yourself familiar with gdb. If you want an improved UI you can take a look at the .gdbinit from [here](https://github.com/gdbinit/Gdbinit) or try out [voltron](https://github.com/snare/voltron).
+For debugging you'll definitely want to make yourself familiar with gdb. If you want an improved UI you can take a look at [peda](https://github.com/longld/peda), the .gdbinit from [here](https://github.com/gdbinit/Gdbinit) or try out [voltron](https://github.com/snare/voltron).
 
 If you need to do reverse engineering and/or debugging on Windows, take a look at [x64dbg](http://x64dbg.com/#start), [OllyDbg](http://www.ollydbg.de/) or the [Immunity Debugger](http://debugger.immunityinc.com/). Also [WinDbg](http://www.windbg.org/) is very powerful, especially since it can do kernel level debugging (rarely needed during CTFs though).
 
