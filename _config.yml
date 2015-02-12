@@ -1,7 +1,7 @@
 # Site settings
 title: "KITCTF"
 baseurl: ""
-url: "http://kitctf.de"
+url: "https://kitctf.de"
 
 github: kitctf
 twitter: KITCTF
