@@ -34,6 +34,8 @@ That should get you up to speed on memory corruption bugs so you can recognize t
 To develop some more practical skills you can take a look at the [microcorruption](https://microcorruption.com) game. It's a browser based exploitation course guiding you through memory corruption exploitation on an embedded platform. It's designed for beginners but you will need to read up on the topics on your own.\\
 Also, you should give the [overthewire wargames](http://overthewire.org/wargames/) mentioned above a try.
 
+For a decent introduction to Return Oriented Programming (ROP) see [this article](http://crypto.stanford.edu/~blynn/rop/).
+
 ### Cryptography
 
 The [cryptopals](http://cryptopals.com/) challenges are a nice set of exercises that guide you through modern cryptography and how to break it. You'll also be doing quite a lot of programming throughout the course.
