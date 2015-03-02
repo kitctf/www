@@ -285,8 +285,7 @@ class Trie
   class Node
     def walk(path="")
       if @end
-        puts path + @char + ' => ' + @value
-        #puts $c.decrypt(path + @char) + ' => ' + @value
+        puts $c.decrypt(path + @char) + ' => ' + @value
       end
       @left.walk(path) if @left
       @mid.walk(path + @char) if @mid
