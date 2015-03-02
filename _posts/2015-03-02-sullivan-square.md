@@ -196,7 +196,9 @@ The VM is a stack machine. We can see that the script calls
 {% endhighlight %}
 
 As expected, the object represents a [trie](http://en.wikipedia.org/wiki/Trie)
-with values associated with the leafs. Our best guess is that our input is
+with values associated with the leafs. It is organized as ternary tree, where the
+children are ordered by character (thanks to the anonymous commenter who
+pointed this out). Our best guess is that our input is
 used to look up a leaf in the trie and the value of that leaf is printed out.
 
 Let's write some code to read the keys and values of the trie, using
@@ -226,15 +228,15 @@ t.root.walk
 
 Output:
 
-    WD6A01IvFSCF3IWFvIIDC => not the flag but a true statement ;)
-    WD8wM9VHFciF9CHCFaabyF01cVFyHMvqFC688X => wow not this either
-    WDwTFcqFHMqAF2FW8MX => 1 c4n r34d th15 ju57 l1k3 x86 0r 3n6L15h!
+    6A01IvFSCF3IWFvIIDC => not the flag but a true statement ;)
+    D8wM9VHFciF9CHCFaabyF01cVFyHMvqFC688X => wow not this either
+    WDTFcqFHMqAF2FW8MX => 1 c4n r34d th15 ju57 l1k3 x86 0r 3n6L15h!
     WDwM6WpVpvcA => this isnt the flag
-    WyXcXAp9FWMXMW8FAp9WFW9DA => nope lots of fake flags
-    WyXcXAFAp9F0Wc8FDHcveFypMWF288i => good boy this is the flag
-    WyXcXAFAp9F0g1MTXFciFA80 => stop being such a n00b and get the flag
-    WyXcXAFAp9F0gvpzF0Wc8XFvpiFD8cvGFKFvppD => lole n1c3 try
-    WyM0qFSVFyAF18Wp => neither is this
+    XcXAp9FWMXMW8FAp9WFW9DA => nope lots of fake flags
+    XcXFAp9F0Wc8FDHcveFypMWF288i => good boy this is the flag
+    XcXFAp9F1MTXFciFA80 => stop being such a n00b and get the flag
+    XcXFAp9FgvpzF0Wc8XFvpiFD8cvGFKFvppD => lole n1c3 try
+    yM0qFSVFyAF18Wp => neither is this
 
 This looks promising. It seems like the trie uses a `Cipher` to encrypt the
 keys before lookup/insertion. There's at least two ways to extract the
@@ -282,12 +284,12 @@ class Trie
   attr_reader :root
   class Node
     def walk(path="")
-      path = path + @char
       if @end
-        puts $c.decrypt(path) + ' => ' + @value
+        puts path + @char + ' => ' + @value
+        #puts $c.decrypt(path + @char) + ' => ' + @value
       end
       @left.walk(path) if @left
-      @mid.walk(path) if @mid
+      @mid.walk(path + @char) if @mid
       @right.walk(path) if @right
     end
   end
@@ -297,18 +299,14 @@ t.root.walk
 
 Output:
 
-    rbpython is for noobs => not the flag but a true statement ;)
-    rb3c4u5e 17 uses llvm th15 me4nz sp33d => wow not this either
-    rbcx 1z e4zy 2 r34d => 1 c4n r34d th15 ju57 l1k3 x86 0r 3n6L15h!
+    python is for noobs => not the flag but a true statement ;)
+    b3c4u5e 17 uses llvm th15 me4nz sp33d => wow not this either
+    rbx 1z e4zy 2 r34d => 1 c4n r34d th15 ju57 l1k3 x86 0r 3n6L15h!
     rbc4pr050n1y => this isnt the flag
-    rmd1dy0u r4d4r3 y0ur ruby => nope lots of fake flags
-    rmd1dy y0u tr13 be1ng m04r 2337 => good boy this is the flag
-    rmd1dy y0u tkh4xd 17 y3t => stop being such a n00b and get the flag
-    rmd1dy y0u tkn0w tr13d n07 b31n6 a n00b => lole n1c3 try
-    rm4tz i5 my h3r0 => neither is this
+    d1dy0u r4d4r3 y0ur ruby => nope lots of fake flags
+    d1d y0u tr13 be1ng m04r 2337 => good boy this is the flag
+    d1d y0u h4xd 17 y3t => stop being such a n00b and get the flag
+    d1d y0u kn0w tr13d n07 b31n6 a n00b => lole n1c3 try
+    m4tz i5 my h3r0 => neither is this
 
-Something is a little off here, probably we haven't quite understood how the
-trie works exactly. After a bit of trial and error, we figured out the correct
-flag:
-
-    d1d y0u tr13 be1ng m04r 2337
+And indeed, `d1d y0u tr13 be1ng m04r 2337` is the flag!
