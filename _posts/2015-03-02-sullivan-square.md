@@ -69,7 +69,7 @@ from (pry):3:in `__script__'
 [4] pry(main)> Cipher.new "abc"
 NoMethodError: undefined method `each' on an instance of String.
 from kernel/delta/kernel.rb:78:in `each (method_missing)'
-[5] pry(main)> Cipher.new ["x", "y", "z"]
+[5] pry(main)> c = Cipher.new ["x", "y", "z"]
 => #<Cipher:0xbdb8
  @map=
   {:encrypt=>
@@ -80,6 +80,8 @@ from kernel/delta/kernel.rb:78:in `each (method_missing)'
      "e"=>nil,
      ...
    :decrypt=>{"x"=>"a", "y"=>"b", "z"=>"c", nil=>" "}}>
+[6] pry(main)> c.encrypt "aaabbbcccddd"
+=> "xxxyyyzzz"
 {% endhighlight %}
 
 So apparently `Cipher` implements some kind of monoalphabetic
