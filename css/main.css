@@ -115,13 +115,21 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
+/* Wrap lines in <pre> tags */
+pre {
+  overflow-x: auto;
+}
+
 
 /* Home styles */
 /* ----------------------------------------------------------*/
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts {
+  list-style-type: none;
+  min-width: 350px;
+}
 
 .posts li { margin-bottom: 30px; }
 
