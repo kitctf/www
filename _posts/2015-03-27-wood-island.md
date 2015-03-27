@@ -52,9 +52,9 @@ The ElGamal scheme is similar to the [DSA](https://en.wikipedia.org/wiki/Digital
 If we have two signatures *(r, s<sub>1</sub>)*, *(r, s<sub>2</sub>)* with the same *r* value, which are valid for two message *m<sub>1</sub>, m<sub>2</sub>*, respectively, we know that the *k* values used for signing must also be equal.
 We can then subtract the *s* values to eliminate the unknown secret key *x* from the above equation:
 
-*s1 - s2 = (H(m<sub>1</sub>) - xr)k<sup>-1</sup> - (H(m<sub>2</sub>) - xr)k<sup>-1</sup> = (H(m<sub>1</sub>) - H(m<sub>2</sub>))k<sup>-1</sup> (mod P - 1)*
+*s<sub>1</sub> - s<sub>2</sub> = (H(m<sub>1</sub>) - xr)k<sup>-1</sup> - (H(m<sub>2</sub>) - xr)k<sup>-1</sup> = (H(m<sub>1</sub>) - H(m<sub>2</sub>))k<sup>-1</sup> (mod P - 1)*
 
-We can thus compute *k<sup>-1</sup> = (s1 - s2)/(H(m<sub>1</sub>) - H(m<sub>2</sub>)) (mod P - 1)*.
+We can thus compute *k<sup>-1</sup> = (s<sub>1</sub> - s<sub>2</sub>)/(H(m<sub>1</sub>) - H(m<sub>2</sub>)) (mod P - 1)*.
 (Doing this modular division is actually a little tricky, see below.)
 Once we have the correct *k<sup>-1</sup>*, we can create a forgery for any message *m* we like, by letting
 
@@ -187,7 +187,7 @@ def moddiv(a, b, modulus):
 
 The code uses a few helper functions (like *modinv*, *isUnit* and *is_probable_prime*) I partially copied from websites, and partially wrote myself.
 You can find their implementation in the [full source code](https://github.com/kitctf/writeups/blob/master/bkp2015/wood_island/exploit.py) in our [github repository](https://github.com/kitctf/writeups).
-(Note that my code is written for Python 3 and apperently not compatible with Python 2.)
+(Note that my code is written for Python 3 and apparently not compatible with Python 2.)
 
 ## Putting the Pieces together
 
