@@ -254,4 +254,4 @@ The exploit in action:
     cat /home/freenote/flag
     0ctf{freenote_use_free_to_get_flag}
 
-The full exploit code can be found [here](https://github.com/kitctf/writeups/blob/master/0CTF/freenote/exploit.py).
+The full exploit code can be found [here](https://github.com/kitctf/writeups/blob/master/0CTF2015/freenote/exploit.py).
