@@ -103,4 +103,4 @@ Was außerdem nicht schaden kann:
 
 
 ## Interesse geweckt?
-Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](/irc)) oder per Mail an [info@kitctf.de](mailto:info@kitctf.de) oder schau einfach mal bei einem unserer wöchentlichen Treffen vorbei, momentan immer Mittwochs ab 15:30 Uhr im Info-Gebäude 50.34, Raum 250 (aktuellste Zeiten stehen im IRC) :)
+Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](/irc)) oder per Mail an [ctf@samuel-gross.de](mailto:ctf@samuel-gross.de) oder schau einfach mal bei einem unserer wöchentlichen Treffen vorbei, momentan immer Mittwochs ab 15:30 Uhr im Info-Gebäude 50.34, Raum 250 (aktuellste Zeiten stehen im IRC) :)
