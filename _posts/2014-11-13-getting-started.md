@@ -28,7 +28,7 @@ You should also make yourself familiar with [ctftime.org](https://ctftime.org/).
 Personally I can strongly recommend the book ["Hacking - The Art of Exploitation"](http://www.nostarch.com/hacking2.htm).
 There is also the following extensive tutorial on exploitation: [A Journey into Exploitation](http://myne-us.blogspot.de/2010/08/from-0x90-to-0x4c454554-journey-into.html).
 
-For a nice overview on memory corruption bugs and exploitation see this white paper: [History of Memory Corruption Attacks (pdf)](https://media.blackhat.com/bh-us-10/whitepapers/Meer/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf).
+For a nice overview on memory corruption bugs and exploitation see this white paper [History of Memory Corruption Attacks (pdf)](https://media.blackhat.com/bh-us-10/whitepapers/Meer/BlackHat-USA-2010-Meer-History-of-Memory-Corruption-Attacks-wp.pdf) or [Project Zero's blogpost series on memory corruption vulnerabilities](http://googleprojectzero.blogspot.ch/2015/06/what-is-good-memory-corruption.html).
 That should get you up to speed on memory corruption bugs so you can recognize these vulns in the challenges and then do more research on them if needed.
 
 To develop some more practical skills you can take a look at the [microcorruption](https://microcorruption.com) game. It's a browser based exploitation course guiding you through memory corruption exploitation on an embedded platform. It's designed for beginners but you will need to read up on the topics on your own.\\
