@@ -14,6 +14,8 @@ is in German unfortunately, we might fix this in the future :)
 Du bist wahrscheinlich hier gelandet, weil Du Interesse an IT-Sicherheit hast.
 Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich dein Interesse gewinnen.
 
+UPDATE (4.11.2015): Die Folien von unserer Einführungsveranstaltung sind jetzt [hier](https://github.com/kitctf/www/raw/master/files/CTF%20%40%20KIT.pdf) zu finden.
+
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
