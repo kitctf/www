@@ -1,14 +1,11 @@
 ---
-layout: post
+layout: page
 title: The Tools We Built
-categories: kitctf
-tags: tools
-author: niklasb
+permalink: /tools/
 ---
 
-Today we want to present some of the tools that KITCTF members have developed
-over the course of the last year to help us solve CTF challenges more
-efficiently (and that may be useful in other security-related scenarios).
+Here we want to present some of the tools that KITCTF members have developed
+to help us solve CTF challenges more efficiently.
 
 ## [libc-database](https://github.com/niklasb/libc-database)
 
