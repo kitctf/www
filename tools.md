@@ -147,9 +147,9 @@ normal GDB output. You can see the pure plugin output by inspecting the file
 In order to understand the assembly syntax, you can consult the
 [documentation for the *bpfc* compiler](http://man7.org/linux/man-pages/man8/bpfc.8.htm).
 
-## Other random tools and libraries
+## Other tools and libraries
 
-#### [sqli.py](https://github.com/niklasb/ctf-tools/sqli.py)
+#### [sqli.py](https://github.com/niklasb/ctf-tools/blob/master/sqli.py)
 
 A small library to perform blind SQL injection. If you wonder why you might not
 always want to use [*sqlmap*](http://sqlmap.org/) for that, [just look at the amount of parameters
