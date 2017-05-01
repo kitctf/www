@@ -214,6 +214,10 @@ pre {
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
+.post pre {
+  overflow: auto;
+}
+
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
@@ -223,6 +227,7 @@ pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
+  white-space: pre;
 }
 
 .post code { padding: 1px 0px; }
@@ -230,7 +235,7 @@ pre {
 .post ul,
 .post ol { margin-left: 1.35em; }
 
-.post pre code { border: none; }
+.post pre code { border: none; white-space: pre; }
 
 /* terminal */
 .post pre.terminal {
