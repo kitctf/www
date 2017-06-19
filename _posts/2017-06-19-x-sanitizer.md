@@ -6,7 +6,7 @@ tags: web
 author: eboda
 ---
 
-We participated as Eat Sleep Pwn Repeat in the qualifications for Google CTF last weekend (and unfortunately dropped out of the top 10 literally in the last 5 minutes of the CTF :'( ). As expected, the CTF contained some great challenges, one of them being **The X Sanitizer**, a medium web challenge.
+We participated as Eat Sleep Pwn Repeat in the qualifications for Google CTF last weekend.  As expected, the CTF contained some great challenges, one of them being **The X Sanitizer**, a medium web challenge.
 
 Let's get started with an overview of the web app, if you are already familiar with it, you can directly skip to the [Exploitation](#exploitation) section or look at the [final payload](#final-payload).
 
