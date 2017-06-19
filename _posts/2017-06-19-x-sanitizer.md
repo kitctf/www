@@ -171,7 +171,8 @@ remove = node => (node == document) ? document.body.innerHTML = '' : node.parent
 document.addEventListener("securitypolicyviolation", e => remove(e.target));
 {% endhighlight %}
 
-There is two ways to not trigger the CSP inside the sandbox when including javascript: 
+There is two ways to not trigger the CSP inside the sandbox when including javascript:
+
 1. via external scripts like `<script src=//example.com></script>`. (Remember CSP allows scripts from any origin)
 2. via [HTML imports](https://developer.mozilla.org/en-US/docs/Web/Web_Components/HTML_Imports) using the `<link rel="import">` tag. 
 
