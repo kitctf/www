@@ -159,6 +159,7 @@ Now that the functionality is out of the way, we can get to the fun part!
 
 ## Exploitation
 There is two problems we need to solve:
+
 1. Get some javascript payload through the sanitizer. 
 2. Bypass the CSP of the main website, as it only allows same-origin scripts. 
 
