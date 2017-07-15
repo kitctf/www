@@ -149,7 +149,7 @@ In order to understand the assembly syntax, you can consult the
 
 ## Other tools and libraries
 
-#### [sqli.py](https://github.com/niklasb/ctf-tools/blob/master/sqli.py)
+#### [sqli.py](https://github.com/niklasb/ctf-tools/blob/master/pwnlib/sqli.py)
 
 A small library to perform blind SQL injection. If you wonder why you might not
 always want to use [*sqlmap*](http://sqlmap.org/) for that, [just look at the amount of parameters
