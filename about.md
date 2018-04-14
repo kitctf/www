@@ -14,8 +14,12 @@ is in German unfortunately, we might fix this in the future :)
 Du bist wahrscheinlich hier gelandet, weil Du Interesse an IT-Sicherheit hast.
 Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich dein Interesse gewinnen.
 
-UPDATE (4.11.2015): Die Folien von unserer Einführungsveranstaltung sind jetzt [hier](https://github.com/kitctf/www/raw/master/files/CTF%20%40%20KIT.pdf) zu finden.
+Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](https://github.com/kitctf/www/raw/master/files/CTF%20%40%20KIT.pdf) zu finden.
 
+## Treffen im aktuellen Semester
+
+Im Sommersemester 2018 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Montags von 17:30 - 19:00 in Raum 252 im Informatiker-Gebäude statt (Geb. 50.34).
+Zu Beginn dieses Semesters findet außerdem eine kurze Vortragsreihe zur Einführung in CTFs statt.
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
@@ -105,4 +109,4 @@ Was außerdem nicht schaden kann:
 
 
 ## Interesse geweckt?
-Super! Dann melde dich doch bei uns via IRC: #kitctf auf freenode ([one-click-webclient](/irc)) oder per Mail an [team@kitctf.de](mailto:team@kitctf.de).
+Super! Dann melde dich doch bei uns per Mail an [team@kitctf.de](mailto:team@kitctf.de) oder schau einfach bei einem unserer [wöchentlichen Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) vorbei.
