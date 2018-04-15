@@ -19,7 +19,10 @@ Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](htt
 ## Treffen im aktuellen Semester
 
 Im Sommersemester 2018 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Montags von 17:30 - 19:00 in Raum 252 im Informatiker-Gebäude statt (Geb. 50.34).
-Zu Beginn dieses Semesters findet außerdem eine kurze Vortragsreihe zur Einführung in CTFs statt.
+Aktuelle Informationen zu diesen gibt es immer [hier](http://crypto.iti.kit.edu/index.php?id=kitctf).
+Dort könnt ihr euch auch in den [E-Mail Verteiler](https://lists.ira.uni-karlsruhe.de/mailman/listinfo/kitctf) eintragen.
+
+Zu Beginn dieses Semesters (ab dem 23.04.) findet außerdem eine kurze Vortragsreihe zur Einführung in CTFs statt.
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
