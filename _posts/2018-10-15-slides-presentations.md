@@ -37,3 +37,14 @@ Das letzte Beispielprogramm ([formatString]({{ "/files/introduction_binary/forma
 {% highlight bash %}
 $ gcc -o formatString formatString.c
 {% endhighlight %}
+
+
+## Web (14. Mai)
+Die Folien zum Überblick über Web Exploitation finden sich [hier]({{ "/files/Vortrag_Web.pdf" | absolute_url }}).
+
+
+## 1. Crypto Vortrag
+Die Folien vom ersten Vortrag über Crypto finden sich [hier]({{ "/files/Crypto.pdf" | absolute_url }}).
+
+## 2. Crypto Vortrag
+Die Folien vom zweiten Vortrag über Crypto folgen später.
