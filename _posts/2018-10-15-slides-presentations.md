@@ -47,4 +47,4 @@ Die Folien zum Überblick über Web Exploitation finden sich [hier]({{ "/files/V
 Die Folien vom ersten Vortrag über Crypto finden sich [hier]({{ "/files/Crypto.pdf" | absolute_url }}).
 
 ## 2. Crypto Vortrag
-Die Folien vom zweiten Vortrag über Crypto folgen später.
+Die Folien vom zweiten Vortrag über Crypto finden sich [hier]({{ "/files/Crypto2.pdf" | absolute_url }}).
