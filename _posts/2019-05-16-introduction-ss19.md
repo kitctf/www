@@ -15,5 +15,5 @@ Beginn der Vorträge ist der **22.05.19** in **Raum 252, Gebäude 50.34** (Falls
 29.05.: Reverse Engineering  
 05.06.: Binary Exploitation (I)  
 12.06.: Binary Exploitation (II)  
-19.06.: Crypto  
+19.06.: Crypto  (Termin noch nicht sicher)
 26.06.: (eventuell zweiter Crypto Vortrag)  

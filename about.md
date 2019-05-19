@@ -14,11 +14,11 @@ is in German unfortunately, we might fix this in the future :)
 Du bist wahrscheinlich hier gelandet, weil Du Interesse an IT-Sicherheit hast.
 Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich dein Interesse gewinnen.
 
-Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](https://github.com/kitctf/www/raw/master/files/CTF%20%40%20KIT.pdf) zu finden.
+Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](https://github.com/kitctf/www/blob/master/files/CTF%20%40%20KIT.pdf) zu finden.
 
 ## Treffen im aktuellen Semester
 
-Im Sommersemester 2019 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Mittwochs von 17:30 - 19:00 in Raum 252 im Informatiker-Gebäude statt (Geb. 50.34).
+Im Sommersemester 2019 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Mittwochs von 17:30 - 19:00 in Raum 252 im Informatik-Gebäude statt (Geb. 50.34).
 Aktuelle Informationen zu diesen gibt es immer [hier](http://crypto.iti.kit.edu/index.php?id=kitctf).
 Dort könnt ihr euch auch in den [E-Mail Verteiler](https://lists.ira.uni-karlsruhe.de/mailman/listinfo/kitctf) eintragen.
 
