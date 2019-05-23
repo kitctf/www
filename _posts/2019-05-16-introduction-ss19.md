@@ -13,7 +13,7 @@ Beginn der Vorträge ist der **22.05.19** in **Raum 252, Gebäude 50.34** (Falls
 Bitte bringt zu den Treffen wenn möglich einen eigenen Laptop mit.
 
 ## Vorläufiger Vortragsplan
-22.05.: Web Exploitation  
+22.05.: Web Exploitation - [Folien]({{ "/files/Web19.pdf" | absolute_url }})  
 29.05.: Reverse Engineering  
 05.06.: Binary Exploitation (I)  
 12.06.: Binary Exploitation (II)  
