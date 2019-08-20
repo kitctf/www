@@ -14,8 +14,7 @@ Bitte bringt zu den Treffen wenn möglich einen eigenen Laptop mit.
 
 ## Vorläufiger Vortragsplan
 22.05.: Web Exploitation - [Folien]({{ "/files/Web19.pdf" | absolute_url }})  
-29.05.: Reverse Engineering  - [Folien]({{ "/files/Reverse_Engineering.pdf" | absolute_url }})
-05.06.: Binary Exploitation (I) - [Folien]({{ "/files/Binary1_19.pdf" | absolute_url }}) 
-12.06.: Binary Exploitation (II)  
-19.06.: Crypto  (Termin noch nicht sicher)  
-26.06.: (eventuell zweiter Crypto Vortrag)  
+29.05.: Reverse Engineering  - [Folien]({{ "/files/Reverse_Engineering.pdf" | absolute_url }})  
+12.06.: Binary Exploitation (I) - [Folien]({{ "/files/Binary1_19.pdf" | absolute_url }})  
+26.06.: Binary Exploitation (II)  - [Folien]({{ "/files/Binary2_19.pdf" | absolute_url }})  
+03.07.: Crypto (ohne Folien)
