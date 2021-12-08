@@ -19,11 +19,18 @@ layout: default
       {% endif %}
     {% endfor %}
     {% unless sticky %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    {% if post.external_url %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.external_url}}">{{ post.title }}</a>
+      </li>
+      {% else %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {{ post.excerpt }}
-    </li>
+      </li>
+    {% endif %}
     {% endunless %}
   {% endfor %}
 </ul>
