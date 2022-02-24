@@ -18,10 +18,8 @@ Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](htt
 
 ## Treffen im aktuellen Semester
 
-Im Sommersemester 2021 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Mittwochs ab 18:00 Uhr online statt.
+Im Wintersemester 2021/2022 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Freitags ab 18:00 Uhr online statt.
 Details dazu gibt es bei uns intern im Slack, zur Aufnahme genügt eine E-Mail an [team@kitctf.de](mailto:team@kitctf.de).
-Aktuelle Informationen zu den Treffen gibt es immer [hier](http://crypto.iti.kit.edu/index.php?id=kitctf).
-Dort könnt ihr euch auch in den [E-Mail Verteiler](https://lists.ira.uni-karlsruhe.de/mailman/listinfo/kitctf) eintragen.
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
