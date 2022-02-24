@@ -12,7 +12,7 @@ So if you are interested in hacking with us, read on! The rest of this article
 is in German unfortunately, we might fix this in the future :)
 
 Du bist wahrscheinlich hier gelandet, weil Du Interesse an IT-Sicherheit hast.
-Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich dein Interesse gewinnen.
+Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich Dein Interesse gewinnen.
 
 Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](https://github.com/kitctf/www/blob/master/files/CTF%20%40%20KIT.pdf) zu finden.
 
@@ -81,7 +81,7 @@ Eher selten und mit weniger Punkten belegt sind Aufgaben im Bereich Recon. Hierb
 #### Coding
 Nicht unbedingt Security related aber trotzdem ab und zu gesehen.
 Hier geht es darum, einen Algorithmus für ein gegebenes Problem zu entwerfen und zu implementieren.
-Gegeben wird hier meist eine Beschreibung des Problems sowie die Adresse eines Servers, welcher einem Probleminstanzen liefert (welche meist innerhalb kurzer Zeit gelöst werden müssen). Liefert man dem Server die korrekten Ergebnisse so gibt dieser einem im Ausgleich die Flag.
+Gegeben wird hier meist eine Beschreibung des Problems sowie die Adresse eines Servers, der Probleminstanzen liefert (welche meist innerhalb kurzer Zeit gelöst werden müssen). Liefert man dem Server die korrekten Ergebnisse, so gibt dieser einem im Ausgleich die Flag.
 
 
 Das sind die Kategorien, die am häufigsten vorkommen. Oft finden sich aber auch Aufgaben aus ganz anderen Bereichen (nicht mal unbedingt aus dem Bereich Computer Science). CTF Veranstalter sind da häufig kreativ. ;)
@@ -99,7 +99,7 @@ Generell sollte sich CTF spielen auch für Deine weitere Informatik Laufbahn (un
 
 
 ## Was solltest Du schon können?
-Im Prinzip reicht es, wenn Du Interesse am Subjekt hast und ein wenig Zeit aufbringen kannst, um Dich in die entsprechenden Themen einzuarbeiten. Es muss natürlich auch nicht jeder alles können. Oft macht es mehr Sinn sich auf ein Gebiet zu spezialisieren, als in allen ein bisschen was zu können.
+Im Prinzip reicht es, wenn Du Interesse am Thema hast und ein wenig Zeit aufbringen kannst, um Dich in die entsprechenden Themen einzuarbeiten. Es muss natürlich auch nicht jeder alles können. Oft ergibt es mehr Sinn sich auf ein Gebiet zu spezialisieren, als in allen ein bisschen was zu können.
 Du solltest außerdem über grundlegende Englischkenntnisse verfügen, da die CTFs i.d.R immer auf Englisch sind.
 
 Was außerdem nicht schaden kann:
@@ -107,8 +107,8 @@ Was außerdem nicht schaden kann:
 - Linux/Unix Kenntnisse
 - Kenntnisse von C und z.B. Python
 - Generelles Verständnis von IT Sicherheit
-- evtl. ein gewisses Frustpotential: es kann am Anfang vorkommen, dass man bei einem CTF gar nichts lösen kann (die Aufgaben sind eben auch so gestellt, dass sie selbst für Leute, die in der IT Security Branche tätig sind, noch anspruchsvoll genug sind). Davon sollte man sich jedoch auf keinen Fall demotivieren lassen.
+- Evtl. ein gewisses Frustpotential: es kann am Anfang vorkommen, dass man bei einem CTF gar nichts lösen kann (die Aufgaben sind eben auch so gestellt, dass sie selbst für Leute, die in der IT Security Branche tätig sind, noch anspruchsvoll genug sind). Davon sollte man sich jedoch auf keinen Fall demotivieren lassen.
 
 
 ## Interesse geweckt?
-Super! Dann melde dich doch bei uns per Mail an [team@kitctf.de](mailto:team@kitctf.de) oder schau einfach bei einem unserer [wöchentlichen Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) vorbei.
+Super! Dann melde Dich doch bei uns per Mail an [team@kitctf.de](mailto:team@kitctf.de) oder schau einfach bei einem unserer [wöchentlichen Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) vorbei.
