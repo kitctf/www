@@ -103,9 +103,9 @@ Du solltest außerdem über grundlegende Englischkenntnisse verfügen, da die CT
 Was außerdem nicht schaden kann:
 
 - Linux/Unix Kenntnisse
-- Kenntnisse von C und z.B. Python
+- Programmierkenntnisse z.B. Python oder C
 - Generelles Verständnis von IT Sicherheit
-- Evtl. ein gewisses Frustpotential: es kann am Anfang vorkommen, dass man bei einem CTF gar nichts lösen kann (die Aufgaben sind eben auch so gestellt, dass sie selbst für Leute, die in der IT Security Branche tätig sind, noch anspruchsvoll genug sind). Davon sollte man sich jedoch auf keinen Fall demotivieren lassen.
+- Evtl. eine gewisse Frustrationstoleranz: es kann am Anfang vorkommen, dass man bei einem CTF gar nichts lösen kann (die Aufgaben sind eben auch so gestellt, dass sie selbst für Leute, die in der IT Security Branche tätig sind, noch anspruchsvoll genug sind). Davon sollte man sich jedoch auf keinen Fall demotivieren lassen.
 
 
 ## Interesse geweckt?
