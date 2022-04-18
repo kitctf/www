@@ -18,7 +18,7 @@ Momentan sind die folgenden vier Termine geplant:
 
  * 28.4.22: Web Security
  * 5.5.22: Reverse Engineering
- * 12.5.11: Binary Exploitation
+ * 12.5.22: Binary Exploitation
  * 19.5.22: Kryptografie
 
 ## Wo
