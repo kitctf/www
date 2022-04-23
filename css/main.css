@@ -124,7 +124,19 @@ pre {
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+.upfront {
+  font-size: 1.2em;
+}
+
+
+.home h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 .posts {
   list-style-type: none;

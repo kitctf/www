@@ -3,7 +3,15 @@ layout: default
 ---
 
 <div class="home">
+  <div class="upfront">
+  {% for post in site.pages %}
+    {% if post.url == "/meetings/" %}
+      {{ post.content | markdownify }} 
+    {% endif %}
+  {% endfor %}
+  </div>
 
+    <h1>Posts</h1>
   <ul class="posts">
     {% for post in site.categories.sticky %}
       <li>
