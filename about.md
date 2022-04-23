@@ -4,7 +4,7 @@ title: About Us
 permalink: /about/
 ---
 
-We're a group of students, computer security enthusiasts and [CTF](https://ctftime.org/ctf-wtf/) players from the [Karlsruhe Institute of Technology](https://www.kit.edu/english).
+We are a group of students, computer security enthusiasts and [CTF](https://ctftime.org/ctf-wtf/) players from the [Karlsruhe Institute of Technology](https://www.kit.edu/english).
 
 ## We want you!!
 
@@ -14,12 +14,12 @@ is in German unfortunately, we might fix this in the future :)
 Du bist wahrscheinlich hier gelandet, weil Du Interesse an IT-Sicherheit hast.
 Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich Dein Interesse gewinnen.
 
-Die Folien von unserer Einführungsveranstaltung aus dem WS15/16 sind [hier](https://github.com/kitctf/www/blob/master/files/CTF%20%40%20KIT.pdf) zu finden.
-
 ## Treffen im aktuellen Semester
 
-Im Wintersemester 2021/2022 finden unsere [Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) immer Freitags ab 18:00 Uhr online statt.
+Im Sommersemester 2022 finden unsere Treffen wieder in Präsenz statt. Immer Donnerstags ab 19:00 Uhr im Infobau 50.34, Raum 252.
 Details dazu gibt es bei uns intern im Slack, zur Aufnahme genügt eine E-Mail an [team@kitctf.de](mailto:team@kitctf.de).
+
+Die ersten vier Treffen in diesem Semester werden Einführungsvorträge sein. Mehr Infos dazu [hier]({{ site.baseurl }}{% link intro.md %})
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
