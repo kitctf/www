@@ -17,6 +17,7 @@ Nach dem Vortrag ist noch Zeit, um sich auszutauschen und selbst die ersten CTF 
 Momentan sind die folgenden vier Termine geplant:
 
  * 28.4.22: Web Security
+    * Folien: \[[Was sind CTFs]({{ site.baseurl }}{% link /files/ctf-presentation-2022.pdf %})\], \[[Web Security]({{ site.baseurl }}{% link /files/Web19.pdf %})\]
  * 5.5.22: Reverse Engineering
  * 12.5.22: Binary Exploitation
  * 19.5.22: Kryptografie
