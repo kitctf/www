@@ -4,6 +4,8 @@ title: Einführungsvorträge CTF
 permalink: /intro/
 ---
 
+*Wichtige Änderung: Ab dem 11. Mai 2022 finden unsere Präsenztreffen in Raum -120 statt*
+
 Im Sommersemester 2022 veranstaltet KITCTF wieder mehrere Einführungsvorträge zu den wichtigsten Teilgebieten von CTF.
 Falls du gerne erstmal genauer wissen willst, was CTF überhaupt ist, findest du dazu Information auf unserer [About Us](/about) Seite.
 Alles Wichtige erklären wir aber auch bei den Treffen.
@@ -26,7 +28,7 @@ Momentan sind die folgenden vier Termine geplant:
 ## Wo
 
 Unsere wöchentlichen Treffen und damit auch die Vorträge finden wieder in Präsenz statt.
-Ort ist der Raum 252 im Infobau 50.34.
+Ort ist der Raum -120 im Infobau 50.34.
 
 ## Vortrag verpasst?
 
