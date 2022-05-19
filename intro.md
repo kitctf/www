@@ -25,7 +25,7 @@ Momentan sind die folgenden vier Termine geplant:
  * 12.5.22: Binary Exploitation
     * [Folien]({{ site.baseurl }}{% link /files/binary_exploitation22.pdf %}), [Challenges]({{ site.baseurl }}{% link /files/pwn.zip %})
  * 19.5.22: Kryptografie
-    * [Folien]({{ site.baseurl }}{% link /files/crypto22.pdf %})
+    * [Folien]({{ site.baseurl }}{% link /files/crypto22.pdf %}), [Challenges]({{ site.baseurl }}{% link /files/crypto.zip %})
 
 
 ## Wo
