@@ -23,7 +23,10 @@ Momentan sind die folgenden vier Termine geplant:
  * 5.5.22: Reverse Engineering
     * [Folien]({{ site.baseurl }}{% link /files/Reverse_Engineering.pdf %}) 
  * 12.5.22: Binary Exploitation
+    * [Folien]({{ site.baseurl }}{% link /files/binary_exploitation22.pdf %}), [Challenges]({{ site.baseurl }}{% link /files/pwn.zip %})
  * 19.5.22: Kryptografie
+    * [Folien]({{ site.baseurl }}{% link /files/crypto22.pdf %})
+
 
 ## Wo
 
