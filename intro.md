@@ -26,6 +26,9 @@ Momentan sind die folgenden vier Termine geplant:
     * [Folien]({{ site.baseurl }}{% link /files/binary_exploitation22.pdf %}), [Challenges]({{ site.baseurl }}{% link /files/pwn.zip %})
  * 19.5.22: Kryptografie
     * [Folien]({{ site.baseurl }}{% link /files/crypto22.pdf %}), [Challenges]({{ site.baseurl }}{% link /files/crypto.zip %})
+ * 28.7.22: CodeQL
+    * [Folien]({{ site.baseurl }}{% link /files/introduction-to-static-analysis.pdf %})
+
 
 
 ## Wo
