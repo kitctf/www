@@ -4,7 +4,7 @@ title: About Us
 permalink: /about/
 ---
 
-We are a group of students, computer security enthusiasts and [CTF](https://ctftime.org/ctf-wtf/) players from the [Karlsruhe Institute of Technology](https://www.kit.edu/english).
+We are a group of students, computer security enthusiasts and [CTF](https://ctftime.org/ctf-wtf/) players mostly from the [Karlsruhe Institute of Technology](https://www.kit.edu/english). If you are interested in hacking with us, write us at [team@kitctf.de](mailto:team@kitctf.de) or come to our weekly meetings. Starting with 09.11.2022 the meetings will take place every Wednesday at 7 pm in the computer science building (50.34), room -120. Before we switch to the weekly meetings on Wednesday, there will be a meeting on the upcoming Thursday (03.11.2022) at the same room.
 
 ## We want you!!
 
@@ -16,7 +16,7 @@ Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich D
 
 ## Treffen im aktuellen Semester
 
-Im Sommersemester 2022 finden unsere Treffen wieder in Präsenz statt. Immer Donnerstags ab 19:00 Uhr im Infobau 50.34, Raum -120.
+Ab dem Sommersemester 2022 finden unsere Treffen wieder in Präsenz statt. Ab dem 09.11.2022 treffen wir uns immer Mittwochs ab 19:00 Uhr im Infobau 50.34, Raum -120.
 Details dazu gibt es bei uns intern im Slack, zur Aufnahme genügt eine E-Mail an [team@kitctf.de](mailto:team@kitctf.de).
 
 Die ersten vier Treffen in diesem Semester werden Einführungsvorträge sein. Mehr Infos dazu [hier]({{ site.baseurl }}{% link intro.md %})
