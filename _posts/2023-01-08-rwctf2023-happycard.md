@@ -8,20 +8,20 @@ author: I Al Istannen, rad4day
 [Real World CTF 2023](https://realworldctf.com/challenge) was a jeopardy-style capture-the-flag event.
 We participated as part of the [Sauercloud](https://ctftime.org/team/54748) CTF-team.
 
-## How solve? Where exploit?
+## How Solve? Where Exploit?
 
 - Google for java card stuff
 - Find [some usable tooling to build your own applets](https://github.com/martinpaljak/ant-javacard)
-- Enable eeprom dumping in cref (`-o /upload/eeprom`)
+- Enable EEPROM dumping in cref (`-o /upload/eeprom`)
 - Stumble upon [Sergei Volokitin's Master's Thesis](https://www.ru.nl/publish/pages/769526/sergei_volokitin.pdf) for an overview of vulnerabilities
-    - Try multiple, but be caught by byte code verification / type checking
+    - Try multiple, but be caught by byte code verification/type checking
 - Stumble upon [PhiAttack](https://cardis2021.its.uni-luebeck.de/papers/CARDIS2021_Dubreuil.pdf)
     - Needs older sdk
     - Implement simple type confusion between `Object` and `byte[]`
 - Be confused why some casts work and others don't
     - reverse cref `__saload` and `__baload` read checks
 - Use type confusion to cast an `Object` to a `byte[]` array with arbitrary length
-- Read eeprom data using (now no longer) out-of-bounds read on `byte[]`
+- Read EEPROM data using (now no longer) out-of-bounds read on `byte[]`
 - Read flag 🍉
 
 
@@ -46,7 +46,7 @@ The attachment contains
 
 So a pretty basic docker setup as well as a `hello.cap`, and a few tools related to `java-card` including the simulator in version 3.1.0u5.
 
-## The entrypoint
+## The Entrypoint
 ```bash
 [...]
 
@@ -60,26 +60,26 @@ scriptgen() {
 
 script=/tmp/script
 
-verifycap -outfile /tmp/hello.cap.digest /files/hello.cap
-scriptgen -hashfile /tmp/hello.cap.digest -o /tmp/hello.cap.script /files/hello.cap
+verifycap -outfile /tmp/hello.cap.digest /files/hello.cap # 3
+scriptgen -hashfile /tmp/hello.cap.digest -o /tmp/hello.cap.script /files/hello.cap # 3
 cat << EOF > $script
 powerup;
-output off;
-0x00 0xA4 0x04 0x00 0x09 0xA0 0x00 0x00 0x00 0x62 0x03 0x01 0x08 0x01 0x7F;
+output off; # 1
+0x00 0xA4 0x04 0x00 0x09 0xA0 0x00 0x00 0x00 0x62 0x03 0x01 0x08 0x01 0x7F; # 2
 EOF
 FLAG=`echo -n "$FLAG"|perl -lne 'print map {"0x".(unpack "H*",$_)." "} split //, $_;'`
-cat /tmp/hello.cap.script >> $script
+cat /tmp/hello.cap.script >> $script # 3
 cat << EOF >> $script
 0x80 0xB8 0x00 0x00 0x08 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xAA 0x00 0x7F;
-0x00 0xA4 0x04 0x00 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xAA 0x7F;
-0x88 0x88 0x00 0x00 0x30 $FLAG 0x7f;
-0x00 0xA4 0x04 0x00 0x09 0xA0 0x00 0x00 0x00 0x62 0x03 0x01 0x08 0x01 0x7F;
+0x00 0xA4 0x04 0x00 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xAA 0x7F; # 4
+0x88 0x88 0x00 0x00 0x30 $FLAG 0x7f; # 5
+0x00 0xA4 0x04 0x00 0x09 0xA0 0x00 0x00 0x00 0x62 0x03 0x01 0x08 0x01 0x7F; # 6
 EOF
 
 TMPDIR=/jctmp
 mkdir $TMPDIR
 cd /upload
-for capfile in *.cap; do
+for capfile in *.cap; do # 7
     [ -f "$capfile" ] || continue
 	verifycap -outfile "$TMPDIR/$capfile.digest" /upload/*.exp "$capfile" || { echo "verify failed"; exit; }
 	scriptgen -hashfile "$TMPDIR/$capfile.digest" -o "$TMPDIR/$capfile.script" "$capfile" || { echo "scriptgen failed"; exit; }
@@ -88,10 +88,10 @@ done
 echo "All verification finished"
 
 cat << EOF >> $script
-0x80 0xB8 0x00 0x00 0x08 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xFF 0x00 0x7F;
-0x00 0xA4 0x04 0x00 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xFF 0x7F;
-output on;
-0x88 0x66 0x00 0x00 0x00 0x7f;
+0x80 0xB8 0x00 0x00 0x08 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xFF 0x00 0x7F; # 8
+0x00 0xA4 0x04 0x00 0x06 0xAA 0xBB 0xCC 0xDD 0xEE 0xFF 0x7F; # 9
+output on; # 10
+0x88 0x66 0x00 0x00 0x00 0x7f; # 11
 EOF
 
 wine 'C:\Program Files\Oracle\Java Card Development Kit Simulator 3.1.0\bin\cref_t1.exe' -nobanner -nomeminfo &
@@ -104,7 +104,7 @@ The APDU commands in this script do the following:
 2. switch to installer applet
 3. upload hello.cap
 4. switch to hello applet
-5. insert flag into eeprom
+5. insert flag into EEPROM
 6. switch to installer applet
 7. user provided cap files 
     - verify, script gen, install
@@ -179,15 +179,15 @@ extends Applet {
 ## EEPROM Object Layout
 ![](/imgs/rwctf23-happycard-imhex.png)
 
-We've taken the liberty to create a small imHex-Pattern to highlight a few of the important bits of an eeprom dump we obtained during analysing of the challenge.
+We've taken the liberty to create a small imHex-Pattern to highlight a few of the important bits of an EEPROM dump we obtained during analysing of the challenge.
 
 The first highlighted block is a `byte[]` filled with `A`s, directly followed by the definition of our ExploitApplet.
 
 The second highlighted block is a custom Object we named `Foo`, containing a field `short len = 0x1337`.
 
-And the final block is the FlagArray we want to read, which isn't completely straight forward, as the java card simulator implements a few features to isolate our ExploitApplet from the Safe.
+And the final block is the flag array we want to read, which isn't completely straight forward, as the java card simulator implements a few features to isolate our ExploitApplet from the Safe.
 
-### Object references
+### Object References
 To ensure that applets can not blindly access methods on objects from other applets, cref does not directly store references as pointers.
 Instead, pointers are represented by *handles*.
 A handle is a `short` value representing the object, similar to a file descriptor in Unix.
@@ -209,7 +209,7 @@ struct Array { // header length: 8 byte
 };
 ```
 
-Note that the FlagArray has a different `securityContext`.
+Note that the flag array has a different `securityContext`.
 
 ### Anatomy of Objects
 Our array is directly followed by the definition of our ExploitApplet.
@@ -280,7 +280,7 @@ By creating a layout similar to the following (from the paper linked above):
 
 ![](/imgs/rwctf23-happycard-phiattack.png)
 
-We can trick the verifier into accepting all cap files, while *still* having a method performing a type confusion.
+We can trick the verifier into accepting all CAP files, while *still* having a method performing a type confusion.
 
 ### More Confusion
 
@@ -295,7 +295,7 @@ Therefore, we are free to read bytes from *anything*, provided it is not a `shor
 
 Very conveniently, the `Object` header is 2 bytes shorter than the `array` header. This allows us to freely control the `length` field, if we manage to interpret an `Object` as an array :)
 
-## The code
+## The Code
 
 Instead of returning `void` and `short`, we convert an `Object` parameter to a `short`, thereby obtaining the handle of the `Object`.
 
