@@ -43,11 +43,13 @@ def main():
             e.begin = ctftime['start']
             e.end = ctftime['finish']
             e.location = ctftime['url']
+            e.uid = f"{event.ctftime_id}@ctftime.org"
 
         e.name = event.name or e.name
         e.begin = event.begin or e.begin
         e.end = event.end or e.end
         e.description = event.comment
+        e.uid = e.uid or f"{hash(e.name)}@kitctf.de"
 
         c.events.add(e)
 
