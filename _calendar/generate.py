@@ -10,6 +10,7 @@ class CTFEvent:
     begin: str = None
     end: str = None
     comment: str = None
+    location: str = None
     ctftime_id: int = None
 
 
@@ -19,7 +20,9 @@ events = [
     CTFEvent('perfect blue ctf', ctftime_id=1763),
     CTFEvent('hxp CTF', ctftime_id=1845),
     CTFEvent('Dice CTF', ctftime_id=1838),
-    CTFEvent("Insomni'hack", ctftime_id=1850)
+    CTFEvent("Insomni'hack", ctftime_id=1850),
+    CTFEvent("KalmarCTF 2023", begin="2023-03-03T17:00:00Z", end="2023-03-03T17:00:00Z", location="https://kalmarc.tf/"),
+    CTFEvent('PlaidCTF 2023', ctftime_id=1770)
 ]
 # DON't CHANGE ME
 
@@ -48,6 +51,7 @@ def main():
         e.name = event.name or e.name
         e.begin = event.begin or e.begin
         e.end = event.end or e.end
+        e.location = event.location or e.location
         e.description = event.comment
         e.uid = e.uid or f"{hash(e.name)}@kitctf.de"
 
