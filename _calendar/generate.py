@@ -21,10 +21,10 @@ events = [
     CTFEvent('hxp CTF', ctftime_id=1845),
     CTFEvent('Dice CTF', ctftime_id=1838),
     CTFEvent("Insomni'hack", ctftime_id=1850),
-    CTFEvent("KalmarCTF 2023", begin="2023-03-03T17:00:00Z", end="2023-03-03T17:00:00Z", location="https://kalmarc.tf/"),
+    CTFEvent("KalmarCTF 2023", begin="2023-03-03T17:00:00Z", end="2023-03-05T17:00:00Z", location="https://kalmarc.tf/"),
     CTFEvent('PlaidCTF 2023', ctftime_id=1770)
 ]
-# DON't CHANGE ME
+# DON'T CHANGE ME
 
 
 def ctftime_event(id: int):
