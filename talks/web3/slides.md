@@ -1,4 +1,4 @@
-## Smartcontract Exploitation
+## Smart Contract Exploitation
 
 Martin
 
@@ -6,7 +6,7 @@ Martin
 
 ### Overview
 
- * Big Picture: Blockchains and Smartcontracts
+ * Big Picture: Blockchains and smart contracts
  * The target: EVM & Solidity
  * The court: Blockchains in CTFs
  * The tools: metamask, remix, hardhat
@@ -21,7 +21,7 @@ Martin
      * State can be verified
      * "Just" need to agree on the transactions
  * Blocks: chunk of new transactions
- * Keypairs as accounts
+ * Key pairs as accounts
 
 ----
 
@@ -40,7 +40,7 @@ Martin
 
 ----
 
-### Smartcontracts
+### Smart Contracts
 
  * Focus on Ethereum / EVM
  * Extend the idea: store and modify arbitrary state instead of balances
@@ -50,7 +50,7 @@ Martin
 
 ----
 
-### Smartcontracts: Transactions
+### Smart Contracts: Transactions
 
  * Send bytecode & create new contract
     * Executes contact constructor to init state
@@ -64,13 +64,13 @@ Martin
 
 ### Solidity
 
- * Lanuage used in the ethereum ecosystem
+ * Language used in the Ethereum ecosystem
      * object-oriented, high-level language for implementing smart contracts
      * influenced by C++, Python and JavaScript
      * statically typed, supports inheritance, libraries and complex user-defined types
  * Compiles to EVM bytecode
      * Non-ethereum EVM chains exist
- * Smartcontracts can use other languages (or handcraft EVM bytecode)
+ * Smart contracts can use other languages (or handcraft EVM bytecode)
 
 ----
 
@@ -137,7 +137,7 @@ function printMoney() public onlyOnwer {
 
 ----
 
-### Solidity: Calls & transfers
+### Solidity: Calls & Transfers
 
 ```solidity
 pragma solidity ^0.8.17;
@@ -189,7 +189,7 @@ contract Attack {
 
 ----
 
-### Solidity: Delegate call
+### Solidity: Delegate Call
 
 ```solidity
 contract A {
@@ -214,7 +214,7 @@ contract B {
 
 ----
 
-### Solidity: "randomness"
+### Solidity: "Randomness"
 
 ```solidity
 contract Vuln {
@@ -228,14 +228,14 @@ contract Vuln {
 
 ### Solidity: Interfaces
 
- * ERC: standards & interfaces for smartcontracts
+ * ERC: standards & interfaces for smart contracts
      * ERC20 popular interface for tokens
      * ERC721 interface for NFTs
  * FOSS implementations exists and can be used
 
 ----
 
-### Solidity: Real world token
+### Solidity: Real World Token
 
 ```solidity
 pragma solidity ^0.8.17;
@@ -268,7 +268,7 @@ contract MyToken is ERC20 {
 ### Blockchains in CTFs
 
  * Transactions cost money: using real chains is expensive
- * Proof-of-Work costs energy: wastefull
+ * Proof-of-Work costs energy: wasteful
  * Most CTFs run single node Proof-of-authority chains
  * Blockchain clients provide client & developer APIs
      * Only thing that we are interested in
@@ -283,7 +283,7 @@ contract MyToken is ERC20 {
 
 ----
 
-### Tools to use
+### Tools to Use
 
  * Metamask: wallet, manage accounts
  * Remix: browser based solidity IDE
@@ -304,7 +304,7 @@ contract MyToken is ERC20 {
 ### Tools: Remix
 
  * IDE + Debug environment
- * Usefull to write "exploit contracts"
+ * Useful to write "exploit contracts"
  * EVM environment in the browser
  * Can use "injected metamask" provider to talk to custom chains
 
@@ -312,7 +312,7 @@ contract MyToken is ERC20 {
 
 ### Tools: web3.* & hardhat
 
- * Usefull for more advanced exploits
+ * Useful for more advanced exploits
  * Provide lots of dev tooling
 
 ---
@@ -320,7 +320,7 @@ contract MyToken is ERC20 {
 ### Challenges
 
  * Intro chals from Slack
- * KITCTFCTF ethereum challenge
+ * KITCTFCTF Ethereum challenge
  * https://ethernaut.openzeppelin.com/
  * https://www.damnvulnerabledefi.xyz/
      * Focus on inter-contract vulns
