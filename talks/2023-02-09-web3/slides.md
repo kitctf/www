@@ -319,8 +319,8 @@ contract MyToken is ERC20 {
 
 ### Challenges
 
- * Intro chals from Slack
- * KITCTFCTF Ethereum challenge
+ * Intro chals from ~~Slack~~ [here](/talks/2023-02-09-web3/web3-intro.zip)
+ * KITCTFCTF Ethereum challenge. [public files](/talks/2023-02-09-web3/secureslots.zip)
  * https://ethernaut.openzeppelin.com/
  * https://www.damnvulnerabledefi.xyz/
      * Focus on inter-contract vulns
