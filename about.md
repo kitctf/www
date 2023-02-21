@@ -19,7 +19,7 @@ Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich D
 Ab dem Sommersemester 2022 finden unsere Treffen wieder in Präsenz statt. Immer donnerstags ab 19:00 Uhr im Infobau 50.34, Raum -120.
 Details dazu gibt es bei uns intern im Slack, zur Aufnahme genügt eine E-Mail an [team@kitctf.de](mailto:team@kitctf.de).
 
-Die ersten vier Treffen in diesem Semester werden Einführungsvorträge sein. Mehr Infos dazu [hier]({{ site.baseurl }}{% link intro.md %})
+Die ersten vier Treffen in diesem Semester werden Einführungsvorträge sein.
 
 ## Über uns
 Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
