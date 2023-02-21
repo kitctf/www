@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>KITCTF – Talk slides</title>
+
+    <link rel="stylesheet" href="./reveal/dist/reset.css">
+    <link rel="stylesheet" href="./reveal/dist/reveal.css">
+    <link rel="stylesheet" href="./reveal/dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="./reveal/plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-separator="^(\r\n?|\n)---(\r\n?|\n)$" data-separator-vertical="^(\r\n?|\n)----(\r\n?|\n)$" id="slides-main">
+        </section>
+    </div>
+</div>
+
+<noscript>
+    The rendered slides require JS, but you can view the markdown source <a href="https://github.com/kitctf/www/tree/master/talks">here</a>.
+</noscript>
+
+<script src="./reveal/dist/reveal.js"></script>
+<script src="./reveal/plugin/notes/notes.js"></script>
+<script src="./reveal/plugin/markdown/markdown.js"></script>
+<script src="./reveal/plugin/highlight/highlight.js"></script>
+<script>
+    const file = location.search.substring(1)
+
+    if (file.match(/^[a-z0-9-]{1,50}$/i)) {
+        document.getElementById('slides-main').setAttribute('data-markdown', `./${file}/slides.md`)
+        document.title += ` - ${file}`
+    } else {
+        console.log('plz no hax here')
+        location.href = 'https://kitctf.de'
+    }
+
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
+</html>
