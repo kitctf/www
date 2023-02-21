@@ -4,109 +4,48 @@ title: About Us
 permalink: /about/
 ---
 
-We are a group of students, computer security enthusiasts and [CTF](https://ctftime.org/ctf-wtf/) players from the [Karlsruhe Institute of Technology](https://www.kit.edu/english).
+We are a group of computer security enthusiasts, and [CTF](https://ctftime.org/ctf-wtf/) players. Most of us are students at [Karlsruhe Institute of Technology](https://www.kit.edu/english), where we meet every week. We teach each other about cryptography, reverse engineering, binary exploitation and web hacking, to advance our knowledge and climb the [CTFTime](https://ctftime.org/) scoreboard.
 
-## We want you!!
+KITCTF is part of the German Team of Teams [Sauercloud](https://ctftime.org/team/54748/) competing in the world's most prestigious CTFs, such as DEFCON CTF and Real World CTF. Also, we host or own CTF events.
 
-So if you are interested in hacking with us, read on! The rest of this article
-is in German unfortunately, we might fix this in the future :)
+## Join us!
 
-Du bist wahrscheinlich hier gelandet, weil Du Interesse an IT-Sicherheit hast.
-Im Folgenden wollen wir Dir näher bringen was wir hier machen und hoffentlich Dein Interesse gewinnen.
+You are probably here because you want to hack with us.
 
-## Treffen im aktuellen Semester
+Sure, come by our weekly in-person meetings or join us for a CTF on the weekend. We meet every Thursday in the computer science main building [50.34](https://www.kit.edu/campusplan/) in room -120 (sometimes alternatively in room -118). Details to upcoming meetings and CTFs are communicated in our Slack. You can join by introducing yourself at [team@kitctf.de](mailto:team@kitctf.de).
 
-Ab dem Sommersemester 2022 finden unsere Treffen wieder in Präsenz statt. Immer donnerstags ab 19:00 Uhr im Infobau 50.34, Raum -120.
-Details dazu gibt es bei uns intern im Slack, zur Aufnahme genügt eine E-Mail an [team@kitctf.de](mailto:team@kitctf.de).
+## Why play CTFs?
 
-Die ersten vier Treffen in diesem Semester werden Einführungsvorträge sein.
+- It is really fun to find vulnerabilities in code most people would miss, and getting a shell on the challenge server.
+- You learn a lot about all kinds of technologies and corners of maths. This is helpful whether you become a full time hacker at some point or not.
+- Companies (not only in security) will hire you ([proof](http://www.reddit.com/r/netsec/comments/202bsf/hey_guys_we_run_five_infosec_consulting_companies/cfz5pg1), [proof](https://trailofbits.github.io/ctf/)). Past and present KITCTF have very impactful and interesting jobs.
+- You work in a team with one common goal: Getting as many flags as possible.
+- You travel the [world](https://twitter.com/KITCTF/status/1557835078415179777) and meet [interesting people](https://twitter.com/5aelo/status/1557876886616698880).
 
-## Über uns
-Wir sind eine Gruppe von KIT Studenten und IT(-Security) Enthusiasten (anders ausgedrückt: Hackern), die CTF als Hobby entdeckt haben.
-Momentan treffen wir uns 1x pro Woche, um zu trainieren oder uns generell über Themen aus dem Bereich infosec auszutauschen.
+## Who are we looking for?
 
-## CTF?
-CTFs (Capture the Flag) sind internationale Wettbewerbe im Bereich IT-Sicherheit (ethical hacking).
-Sie finden meist online statt (jeopardy style) und dauern normalerweise entweder 24 oder 48 Stunden.
-Das bekannteste CTF (sozusagen die Weltmeisterschaft) ist das DEFCON CTF, welches jährlich im Sommer während der DEFCON in Las Vegas stattfindet.
-Generell gibt es grob 1-2 mal pro Monat ein CTF, meistens im Rahmen einer IT Security Konferenz.
+We do not require prior knowledge and welcome everyone. All you need is being interested in the topic, being a self-motivated learner and be willing to spend some time hacking. To be able to follow along in our meetings, it is helpful to be able to read code and to know Linux fundamentals. Also be warned, CTFs can be frustrating. It is not uncommon to spend multiple hours solving a challenge. That being said, it is also very rewarding solving a challenge.
 
-Bei einem CTF gibt es Aufgaben aus verschiedenen Bereichen der Informatik und IT-Sicherheit (s.u.).
-Für das Lösen einer Aufgabe, also konkret das Einreichen der korrekten Flag im Webportal, erhalten die Teams Punkte, deren Höhe sich nach der Schwierigkeit der Aufgabe richtet (meist zwischen 50 und 500 Punkten). Eine Flag ist hier meist einfach eine Zeichenkette, z.B. nach dem Muster `flag{some_secret_string_here}`
-Am Ende gewinnt das Team mit den meisten Punkten.
+## Kinds of Challenges
 
+Every challenge is different. However, they usually fit in at least one of the following categories. 
 
-## Aufgabenbereiche
-Hier soll einmal skizziert werden, aus welche Bereichen die Aufgaben während eines CTFs kommen (können) und mit was wir uns dementsprechend im Rahmen unserer Studentengruppe beschäftigen.
+### Binary Exploitation
 
-#### Binary Exploitation
-Der Klassiker! Gegeben ist hier meistens eine kompilierte Binary (manchmal mit source code, manchmal mit symbols, oft aber ohne beides). Diese soll nun analysiert werden, um Schwachstellen (meistens memory corruption Bugs) zu finden. Anschließend wird ein Exploit geschrieben und auf den Server der Betreiber losgelassen. Dieser liefert dann meist Shell-Zugriff auf der Box und es findet sich eine Datei, in welcher die Flag steht.
+You get a binary (sometimes with source code, sometimes with symbols) that is also running on a challenge server. Put simply, the goal is to interact with the running binary and make it dance, by finding a vulnerability and exploiting it. Often you will end up with a shell on the challenge server. The kind of binaries reach from toy programs, to modern web browser with all security mitigations enabled. If you want to learn binary exploitation, check out [pwn.college](https://pwn.college/).
 
-Für die, die sich in dem Bereich schon etwas mehr auskennen: Natürlich kommen hier auch moderne Mitigations wie z.B. NX, ASLR und Stack Canaries zum Einsatz, welche umgangen werden wollen. Je nach Schwierigkeitsgrad der Aufgabe sind mal mehr, mal weniger Mitigations aktiv.
+### Cryptography
 
-#### Sandboxing
-Hier geht es darum, selbst gestrickte Sandboxes zu brechen. Oft werden hier Sandboxes für diverse Skriptsprachen (beliebt ist Python) eingesetzt, es finden sich aber auch Sandboxes auf Basis von [seccomp](http://en.wikipedia.org/wiki/Seccomp).
-Generell verhindert die Sandbox mindestens das Ausführen beliebiger Shell Befehle. Der Mechanismus soll dann umgangen und meist wiederum eine Datei (in der die Flag steht) vom Dateisystem gelesen werden.
+Cryptography is not just done on slides full of formulas in a KIT lecture, but can also lead to real bugs. You will find subtle edge cases in the implementation of cryptography algorithms or combine cutting edge ideas from research papers to decrypt encrypted flag files. To learn about how to break cryptography, check out [CryptoHack](https://cryptohack.org/).
 
-#### Reverse Engineering
-Meistens geht es bei Aufgaben aus dem Bereich Reversing nicht einfach nur darum, eine Binary zu reverse engineeren (das muss schon genug für Binary Exploitation gemacht werden), sondern z.B. mal darum, ein selbst gebautes Kompressionsschema zu analysieren oder das Obfuscation-Schema hinter einer Binary zu verstehen.
-Generell ist die Flag hier "nur" gut versteckt in den Daten, die einem bereitgestellt werden.
+### Web Security
 
-#### Kryptographie
-Ebenfalls beliebt sind Aufgaben aus dem Bereich Kryptographie.
-Hier gibt es teilweise Aufgaben, bei denen es darum geht, selbst gebaute Kryptoverfahren zu brechen (z.B. durch Häufigkeitsanalyse). Oft geht es aber auch darum, konkrete Angriffe auf z.B. RSA zu implementieren (beispielsweise [Wiener's Attack](http://en.wikipedia.org/wiki/Wiener%27s_attack) oder [diesen Angriff hier](https://www.cs.unc.edu/~reiter/papers/1996/Eurocrypt.pdf)).
+Also, always present in CTFs are web security challenges. These challenges have the same kinds of bugs that real websites have, only that you are allowed to fully take advantage of them. To learn what these bugs are, check out the [Web Security Academy](https://portswigger.net/web-security).
 
-#### Web Security
-Eigentlich immer dabei: Web Sicherheit.
-Hier sind natürlich die Klassiker SQLi und XSS sowie File Inclusion und Freunde, aber auch ein gutes Verständnis von Web Technologien generell gefragt. Außerdem ist häufig ein gutes Verständnis von Unix und Co (z.B. die Dateien unter /proc/self) und manchmal auch Kryptographie wichtig (z.B. um schwache Signaturschemata für Cookies mithilfe eines [length extension Angriffes](http://en.wikipedia.org/wiki/Length_extension_attack) zu brechen und sich so eine Session als Admin zu verschaffen).
-Damit es abwechslungsreich bleibt sind aber oft auch "exotischere" Angriffe gefragt: NoSql- und Object Injection, Dom Clobbering, SSRF usw.
+### Reverse Engineering
 
-Übrigens muss hier nicht alles serverseitig sein. Da in der Realität clientseitige Angriffe immer wichtiger werden, wird natürlich versucht, dies in den Aufgaben widerzuspiegeln. Meistens wird dabei ein bot (z.B. auf Basis von [phantomjs](http://phantomjs.org/)) eingesetzt, welcher regelmäßig die Seite besucht (oder ihm gesendete Links öffnet) und dabei auch Javascript ausführt.
+Between what the hell is this binary doing, to realizing that this is a virtual machine for a custom architecture implemented in C++, are only a few hours of collaboratively looking into a decompiler. Generally, reverse engineering is a very broad category with all kinds of interesting learning opportunities.
 
-#### Forensics
-Aufgaben aus dem Bereich Computer Forensics. Hier sollen z.B. "post-mortem" Systeme analysiert werden, beispielsweise ein Windows Disk-Image nach einer Vireninfektion oder ein Unix Webserver nach einem Einbruch.
-Außerdem beliebt sind Aufgaben bei denen ein packet capture file gegeben ist und aus diesem bestimmte Informationen entnommen werden sollen (z.B. Passwörter).
+### Miscellaneous (Misc)
 
-#### Kernel Exploitation
-Kernel exploitation challenges kommen eher selten vor (und dann meist bei on-site Events), da praktisch für jedes Team ein eigener Server eingerichtet werden muss: ein fehlgeschlagener exploit Versuch und die Maschine muss neu gestartet werden.
-Hierbei geht es darum, Schwachstellen im Betriebssystemkern (meistens einem selbst geschriebenen Treiber) zu finden und auszunutzen, um sich erweiterte Rechte auf dem System zu verschaffen (unter Linux meist root).
-
-Generell kann man es aber auch in anderen Aufgabenbereichen (z.B. Reversing) mal mit einem (selbst gebauten oder modifizierten) Kernel zu tun haben. ;)
-
-#### Recon
-Eher selten und mit weniger Punkten belegt sind Aufgaben im Bereich Recon. Hierbei geht es meist darum, durch geschicktes Suchen im Internet Informationen über Personen herauszufinden.
-
-#### Coding
-Nicht unbedingt Security related aber trotzdem ab und zu gesehen.
-Hier geht es darum, einen Algorithmus für ein gegebenes Problem zu entwerfen und zu implementieren.
-Gegeben wird hier meist eine Beschreibung des Problems sowie die Adresse eines Servers, der Probleminstanzen liefert (welche meist innerhalb kurzer Zeit gelöst werden müssen). Liefert man dem Server die korrekten Ergebnisse, so gibt dieser einem im Ausgleich die Flag.
-
-
-Das sind die Kategorien, die am häufigsten vorkommen. Oft finden sich aber auch Aufgaben aus ganz anderen Bereichen (nicht mal unbedingt aus dem Bereich Computer Science). CTF Veranstalter sind da häufig kreativ. ;)
-
-
-## Motivation
-Falls Du immer noch nicht überzeugt bist, gibt es hier noch ein paar weitere Gründe, warum sich CTF spielen lohnt:
-
-- es macht Spaß :)
-- wird von vielen Firmen (nicht mal unbedingt nur im Bereich IT-Security) sehr gerne gesehen ([proof](http://www.reddit.com/r/netsec/comments/202bsf/hey_guys_we_run_five_infosec_consulting_companies/cfz5pg1), [proof](https://trailofbits.github.io/ctf/)) und z.B. weiß es auch Google sehr zu schätzen ;)
-- man lernt sehr viele Technologien kennen (von kernel-level sandboxing über die neusten C++ Features und exotischen Programmiersprachen bis hin zu diversen Web Frameworks und natürlich state-of-the-art exploitation Tricks)
-- gute Gelegenheit, um nochmal seine Coding Skills in z.B. Python zu verbessern
-
-Generell sollte sich CTF spielen auch für Deine weitere Informatik Laufbahn (und natürlich die Uni) auszahlen. :)
-
-
-## Was solltest Du schon können?
-Im Prinzip reicht es, wenn Du Interesse am Thema hast und ein wenig Zeit aufbringen kannst, um Dich in die entsprechenden Themen einzuarbeiten. Es muss natürlich auch nicht jeder alles können. Oft ergibt es mehr Sinn sich auf ein Gebiet zu spezialisieren, als in allen ein bisschen was zu können.
-Du solltest außerdem über grundlegende Englischkenntnisse verfügen, da die CTFs i.d.R immer auf Englisch sind.
-
-Was außerdem nicht schaden kann:
-
-- Linux/Unix Kenntnisse
-- Programmierkenntnisse z.B. Python oder C
-- Generelles Verständnis von IT Sicherheit
-- Evtl. eine gewisse Frustrationstoleranz: es kann am Anfang vorkommen, dass man bei einem CTF gar nichts lösen kann (die Aufgaben sind eben auch so gestellt, dass sie selbst für Leute, die in der IT Security Branche tätig sind, noch anspruchsvoll genug sind). Davon sollte man sich jedoch auf keinen Fall demotivieren lassen.
-
-
-## Interesse geweckt?
-Super! Dann melde Dich doch bei uns per Mail an [team@kitctf.de](mailto:team@kitctf.de) oder schau einfach bei einem unserer [wöchentlichen Treffen](http://crypto.iti.kit.edu/index.php?id=kitctf) vorbei.
+CTF challenge authors are creative people. The output for the weirdest of their ideas is the misc category. These challenge make you learn a new thing in record time, like how to completely change the prediction of an image recognition network by only changing one pixel, how to beat a video game faster than the fastest speed runner, or how to drain all the money from a smart contract.
