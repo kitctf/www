@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Folien der Vorträge im Sommersemester '18"
-categories: meetings
+categories: learning
 excludeRSS: true
 author: itaton
 ---

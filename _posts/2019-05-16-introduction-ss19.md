@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einführungsvorträge im Sommersemester '19"
-categories: meetings
+categories: learning
 excludeRSS: true
 author: itaton
 ---
