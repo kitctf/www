@@ -95,7 +95,7 @@ Elliptic Curve equation: $y^2 = x^3 + ax + b$
 
 ## ECDH:
 
-(Google ECDH and find a nice looking image)
+(Search for ECDH and find a nice looking image explanation or draw a CC image and insert it here)
 
 ---
 
