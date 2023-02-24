@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Folien der Vorträge im Wintersemester '18/19"
-categories: meetings
+categories: learning
 excludeRSS: true
 author: itaton
 ---
