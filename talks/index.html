@@ -29,6 +29,7 @@
 <script src="./reveal/plugin/notes/notes.js"></script>
 <script src="./reveal/plugin/markdown/markdown.js"></script>
 <script src="./reveal/plugin/highlight/highlight.js"></script>
+<script src="./reveal/plugin/math/math.js"></script>
 <script>
     const file = location.search.substring(1)
 
@@ -47,7 +48,7 @@
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax2]
     });
 </script>
 </body>
