@@ -22,7 +22,11 @@ events = [
     CTFEvent('Dice CTF', ctftime_id=1838),
     CTFEvent("Insomni'hack", ctftime_id=1850),
     CTFEvent("KalmarCTF 2023", begin="2023-03-03T17:00:00Z", end="2023-03-05T17:00:00Z", location="https://kalmarc.tf/"),
-    CTFEvent('PlaidCTF 2023', ctftime_id=1770)
+    CTFEvent('PlaidCTF 2023', ctftime_id=1770),
+    CTFEvent('Rumble 2023', ctftime_id=1942),
+    CTFEvent("GPNCTF by KITCTF", begin="2023-06-09", end="2023-06-11"),
+    CTFEvent('DEF CON Qualifier', ctftime_id=1871),
+    CTFEvent("DEF CON Finals", begin="2023-08-10", end="2023-08-13"),
 ]
 # DON'T CHANGE ME
 
