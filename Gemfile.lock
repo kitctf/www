@@ -31,6 +31,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
@@ -67,6 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-redirect-from
 
 BUNDLED WITH
    2.2.24
