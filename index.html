@@ -33,10 +33,10 @@ layout: default
       {% endfor %}
       {% unless sticky %}
       {% unless learning %}
-      {% if post.external_url %}
+      {% if post.redirect_to %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.external_url }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.redirect_to }}">{{ post.title }}</a>
       </li>
       {% else %}
       <li>
