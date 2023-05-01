@@ -257,6 +257,7 @@ Task:
 - Build a function ID database for `aes.a` (from https://github.com/kokke/tiny-AES-c)
 - Apply it to `challenge_stripped`.
 - Find the flag for `challenge_stripped` **without** running it.
+
 (Files are [here](https://github.com/kitctf/www/blob/master/talks/2023-04-13-advancedGhidra/challenges.tar.gz))
 
 ---
@@ -543,6 +544,7 @@ After
 - https://guedou.github.io/talks/2019_BeeRump/slides.pdf
 - https://swarm.ptsecurity.com/creating-a-ghidra-processor-module-in-sleigh-using-v8-bytecode-as-an-example/
 - https://spinsel.dev/2020/06/17/ghidra-brainfuck-processor-1.html
+
 (Finished Ghidra processor can be found [here](https://github.com/kitctf/www/blob/master/talks/2023-04-13-advancedGhidra/challenges.tar.gz))
 
 ---
