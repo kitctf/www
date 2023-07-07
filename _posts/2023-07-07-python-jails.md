@@ -12,7 +12,7 @@ Solve them yourself, by copying the script and providing input that executes `os
 Learning about Python Jail Escapes it is helpful to ask questions like:
 * How are modules and classes implemented in Python?
 * What are frozen modules?
-* How does syntactic sugar get replaced? You may start at `import someting` or `array[5]`.
+* How does syntactic sugar get replaced? You may start at `import something` or `array[5]`.
 * How many ways are there to call a function/method other than `lmao()`/`lm.oa()`?
 
 ## Happens way too often
