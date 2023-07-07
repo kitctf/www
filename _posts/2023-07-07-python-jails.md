@@ -9,7 +9,7 @@ At our weekly meetings we had a talk about Python jail escapes, aka. getting aro
 
 Solve them yourself, by copying the script and providing input that executes `os.system('cat flag.txt')`. Afterwards you can compare your solution to the one we had in mind, there are always different ways. For some reference solutions it is relevant to mention, that we used Python 3.11.2.
 
-Leaning about Python Jail Escapes it is helpful to ask questions like:
+Learning about Python Jail Escapes it is helpful to ask questions like:
 * How are modules and classes implemented in Python?
 * What are frozen modules?
 * How does syntactic sugar get replaced? You may start at `import someting` or `array[5]`.
