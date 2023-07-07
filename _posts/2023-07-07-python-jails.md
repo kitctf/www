@@ -211,9 +211,11 @@ print("-- Please enter code (last line must contain only --END)")
 source_code = ""
 while True:
   line = sys.stdin.readline()
+  ### Begin: Additional restriction
   if '(' in line or ')' in line:
         print("ERROR: Parentheses are not allowed")
         exit(1)
+   ### End: Additional restriction
   if line.startswith("--END"):
     break
   source_code += line
