@@ -16,6 +16,9 @@ class CTFEvent:
 
 # CHANGE ME
 events = [
+    CTFEvent("ENOWARS 7", ctftime_id=2040),
+    CTFEvent("CCCamp 2023", ctftime_id=2048),
+    CTFEvent("Midnight Sun CTF 2023 Finals", ctftime_id=1922),
     CTFEvent("DEF CON Finals", begin="2023-08-10", end="2023-08-13"),
 ]
 # DON'T CHANGE ME
