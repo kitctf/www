@@ -20,9 +20,12 @@ events = [
     CTFEvent("DEF CON Finals", begin="2023-08-10", end="2023-08-13"),
     CTFEvent("CCCamp 2023", ctftime_id=2048),
     CTFEvent("Midnight Sun CTF 2023 Finals", ctftime_id=1922),
+    CTFEvent("SekaiCTF 2023", ctftime_id=1923),
+    CTFEvent("HITCON CTF 2023 Quals", ctftime_id=2019),
     CTFEvent("FAUST CTF 2023", ctftime_id=2011),
     CTFEvent("CyberSecurityRumble Finals 2023", begin="2023-09-28", end="2023-09-30"),
     CTFEvent("Hack.lu CTF 2023", ctftime_id=1921),
+    CTFEvent("HITCON CTF 2023 Final", ctftime_id=2035),
 ]
 # DON'T CHANGE ME
 
