@@ -23,7 +23,7 @@ events = [
     CTFEvent("SekaiCTF 2023", ctftime_id=1923),
     CTFEvent("HITCON CTF 2023 Quals", ctftime_id=2019),
     CTFEvent("FAUST CTF 2023", ctftime_id=2011),
-    CTFEvent("CyberSecurityRumble Finals 2023", begin="2023-09-28", end="2023-09-30"),
+    CTFEvent("CyberSecurityRumble Finals 2023", begin="2023-09-28T13:00:00+02:00", end="2023-09-30T13:00:00+02:00"),
     CTFEvent("Hack.lu CTF 2023", ctftime_id=1921),
     CTFEvent("HITCON CTF 2023 Final", ctftime_id=2035),
 ]
