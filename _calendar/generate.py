@@ -16,18 +16,16 @@ class CTFEvent:
 
 # CHANGE ME
 events = [
-    CTFEvent("Insomni'hack teaser", ctftime_id=1831),
-    CTFEvent('perfect blue ctf', ctftime_id=1763),
-    CTFEvent('hxp CTF', ctftime_id=1845),
-    CTFEvent('Dice CTF', ctftime_id=1838),
-    CTFEvent("Insomni'hack", ctftime_id=1850),
-    CTFEvent("KalmarCTF 2023", begin="2023-03-03T17:00:00Z", end="2023-03-05T17:00:00Z", location="https://kalmarc.tf/"),
-    CTFEvent('PlaidCTF 2023', ctftime_id=1770),
-    CTFEvent('Rumble 2023', ctftime_id=1942),
-    CTFEvent('Google Capture The Flag 2023', ctftime_id=1929),
-    CTFEvent("GPNCTF by KITCTF", begin="2023-06-09", end="2023-06-11"),
-    CTFEvent('DEF CON Qualifier', ctftime_id=1871),
+    CTFEvent("ENOWARS 7", ctftime_id=2040),
     CTFEvent("DEF CON Finals", begin="2023-08-10", end="2023-08-13"),
+    CTFEvent("CCCamp 2023", ctftime_id=2048),
+    CTFEvent("Midnight Sun CTF 2023 Finals", ctftime_id=1922),
+    CTFEvent("SekaiCTF 2023", ctftime_id=1923),
+    CTFEvent("HITCON CTF 2023 Quals", ctftime_id=2019),
+    CTFEvent("FAUST CTF 2023", ctftime_id=2011),
+    CTFEvent("CyberSecurityRumble Finals 2023", begin="2023-09-28T13:00:00+02:00", end="2023-09-30T13:00:00+02:00"),
+    CTFEvent("Hack.lu CTF 2023", ctftime_id=1921),
+    CTFEvent("HITCON CTF 2023 Final", ctftime_id=2035),
 ]
 # DON'T CHANGE ME
 
