@@ -22,21 +22,16 @@ layout: default
     {% endfor %}
     {% for post in site.posts %}
       {% assign sticky = false %}
-      {% assign learning = false %}
       {% for cat in post.categories %}
         {% if cat == 'sticky' %}
           {% assign sticky = true %}
         {% endif %}
-        {% if cat == 'learning' %}
-          {% assign learning = true %}
-        {% endif %}
       {% endfor %}
       {% unless sticky %}
-      {% unless learning %}
-      {% if post.redirect_to %}
+      {% if post.external_url %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.redirect_to }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.external_url}}">{{ post.title }}</a>
       </li>
       {% else %}
       <li>
@@ -45,7 +40,6 @@ layout: default
       {{ post.excerpt }}
       </li>
       {% endif %}
-     {% endunless %}
      {% endunless %}
     {% endfor %}
   </ul>
