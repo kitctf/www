@@ -5,3 +5,7 @@ _site/
 .jekyll-cache/
 .idea
 venv
+bin/
+lib/
+pyvenv.cfg
+
