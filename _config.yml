@@ -12,6 +12,7 @@ markdown: kramdown
 permalink: /:categories/:title
 plugins:
   - jekyll-redirect-from
+include: ["_*.pdf"] # Also copy such pdfs
 
 # Authors
 authors:
