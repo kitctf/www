@@ -13,7 +13,7 @@ The talk covers:
 * how to ignore certificate errors in mobile applications.
 * a live demo on how to use frida to solve a game hacking challenge from an internal CTF.
 
-The slides can be found [here](/talks/2023-12-14-frida-game-hacking/_game__hacking_with_frida.re.pdf) and the code of the live demo [here](/talks/2023-12-14-frida-game-hacking/index.ts).
+The slides can be found [here](/talks/2023-12-07-frida-game-hacking/_game__hacking_with_frida.re.pdf) and the code of the live demo [here](/talks/2023-12-07-frida-game-hacking/index.ts).
 
 The demo project has been set up like this:
 ```shell
