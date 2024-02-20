@@ -6,6 +6,7 @@ description: "We are a group of students, computer security enthusiasts and CTF 
 
 github: kitctf
 twitter: KITCTF
+mastodon: "https://infosec.exchange/@KITCTF"
 
 # Build settings
 markdown: kramdown

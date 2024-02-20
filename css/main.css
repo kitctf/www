@@ -96,6 +96,7 @@ a:visited { color: #205caa; }
 }
 
 .github-icon,
+.mastodon-icon,
 .twitter-icon {
   display: inline-block;
   width: 16px;
