@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from ics import Calendar, Event
 import requests
 import os
+import hashlib
 
 
 @dataclass
@@ -49,7 +50,9 @@ def main():
     c = Calendar()
 
     for event in events:
-        e = Event()
+        e = Event(uid="asdasd")
+        e.uid = None # Explicitly remove the auto-generated uid again. Otherwise we can not distinguish between events
+        # that have a default uid or one that is based on the ctftime id.
 
         if event.ctftime_id:
             ctftime = ctftime_event(event.ctftime_id)
@@ -64,9 +67,12 @@ def main():
         e.end = event.end or e.end
         e.location = event.location or e.location
         e.description = event.comment
-        e.uid = e.uid or f"{hash(e.name)}@kitctf.de"
+        e.uid = e.uid or f"{hashlib.sha256(e.name.encode()).hexdigest()}@kitctf.de"
 
         c.events.add(e)
+    uids : list[str] = [e.uid for e in c.events]
+    assert len(uids) == len(set(uids)), "Duplicate UIDs detected" # For future me.
+    assert all(e.uid is not None for e in c.events), "All UIDs should be set" # For future me.
 
     with open(os.path.dirname(os.path.realpath(__file__)) + '/../hack_harder.ics', 'w') as f:
         f.writelines(c.serialize_iter())
