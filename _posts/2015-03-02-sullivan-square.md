@@ -3,7 +3,8 @@ layout: post
 title: "Boston Key Party 2015 'Sullivan Square' writeup"
 categories: writeups bkp2015
 tags: reversing
-author: niklasb
+authors:
+  - niklasb
 ---
 
 *Sullivan Square* was a reversing challenge worth 350 points at the Boston Key Party

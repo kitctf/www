@@ -3,7 +3,8 @@ layout: post
 title: "HITB CTF 2016: 'Special Delivery' writeup"
 categories: writeups hitbctf
 tags: network
-author: saelo
+authors:
+  - saelo
 ---
 
 Just a small writeup for "Special Delivery" (network 300) from HITB CTF 2016.

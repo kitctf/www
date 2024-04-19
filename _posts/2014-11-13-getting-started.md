@@ -2,7 +2,8 @@
 layout: post
 title: "Getting Started with CTF"
 categories: learning
-author: saelo
+authors:
+  - saelo
 ---
 
 We've created a small guide to get you started with CTF and more or less infosec in general. There are a few selected resources for each of the major CTF disciplines that should help you get up to speed in those.

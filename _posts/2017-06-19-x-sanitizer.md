@@ -3,7 +3,8 @@ layout: post
 title: "Google CTF Quals 2017 - The X Sanitizer"
 categories: writeups googlectf
 tags: web
-author: eboda
+authors:
+  - eboda
 ---
 
 We participated as Eat Sleep Pwn Repeat in the qualifications for Google CTF last weekend.  As expected, the CTF contained some great challenges, one of them being **The X Sanitizer**, a medium web challenge.

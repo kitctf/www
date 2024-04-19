@@ -3,7 +3,8 @@ layout: post
 title: "Folien vom Einführungsvortrag im Sommersemester '18"
 categories: learning
 excludeRSS: true
-author: itaton
+authors:
+  - itaton
 ---
 
 Hier sind die [Vortragsfolien]({{ "/files/Vortrag_Einfuehrung.pdf" | absolute_url }}) vom heutigen Einführungsvortrag.

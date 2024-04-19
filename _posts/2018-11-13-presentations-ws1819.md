@@ -3,7 +3,8 @@ layout: post
 title: "Folien der Vorträge im Wintersemester '18/19"
 categories: learning
 excludeRSS: true
-author: itaton
+authors:
+  - itaton
 ---
 
 Auch im Wintersemester 18/19 gab es wieder Einführungsvorträge zu relevanten Themenbereichen.

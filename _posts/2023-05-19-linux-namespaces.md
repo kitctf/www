@@ -2,7 +2,8 @@
 layout: post
 title: "Talk: Linux Namespaces"
 categories: learning
-author: mawalu
+authors:
+  - mawalu
 ---
 
 What are linux namespaces and how can we e.g. build docker using it? 

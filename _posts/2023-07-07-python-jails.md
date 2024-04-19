@@ -2,7 +2,8 @@
 layout: post
 title: "Python Jail Escapes"
 categories: learning
-author: Liam
+authors:
+  - Liam
 ---
 
 At our weekly meetings we had a talk about Python jail escapes, aka. getting around restrictions that make it hard to execute `os.system('cat flag.txt')`. In the talk we went through challenges, that we present here as exercises to practice. Starting very simple and then digging more and more into python internals.

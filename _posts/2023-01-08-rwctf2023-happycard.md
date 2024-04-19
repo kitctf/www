@@ -2,7 +2,9 @@
 layout: post
 title: "Real World CTF 2023: Happy-Card Writeup"
 categories: writeups
-author: I Al Istannen, rad4day
+authors:
+  - I Al Istannen
+  - rad4day
 ---
 
 [Real World CTF 2023](https://realworldctf.com/challenge) was a jeopardy-style capture-the-flag event.

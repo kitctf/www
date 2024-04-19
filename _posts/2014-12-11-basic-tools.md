@@ -2,7 +2,8 @@
 layout: post
 title: "Basic Tools"
 categories: learning
-author: saelo
+authors:
+  - saelo
 ---
 
 CTFs are about the skill, not about the tools. Still, you'll need a couple of tools to be successful.\\

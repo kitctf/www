@@ -2,7 +2,9 @@
 layout: post
 title: "Talk: Advanced Ghidra"
 categories: learning
-author: Liam, intrigus
+authors:
+  - Liam
+  - intrigus
 ---
 
 We tame the dragon and get it to teamwork. This talk is about advanced Ghidra usage, specifically:

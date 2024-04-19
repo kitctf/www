@@ -3,7 +3,9 @@ layout: post
 title: "Advanced Heap Exploitation: 0CTF 2015 'freenote' writeup"
 categories: writeups 0CTF2015
 tags: exploitation
-author: saelo, eboda
+authors:
+  - saelo
+  - eboda
 ---
 
 *freenote* was a pwnable worth 400 points during 0CTF 2015.

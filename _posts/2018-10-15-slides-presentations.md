@@ -3,7 +3,8 @@ layout: post
 title: "Folien der Vorträge im Sommersemester '18"
 categories: learning
 excludeRSS: true
-author: itaton
+authors:
+  - itaton
 ---
 
 ## Binary Exploitation (07. Mai)
