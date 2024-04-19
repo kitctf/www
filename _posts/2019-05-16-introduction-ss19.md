@@ -3,7 +3,8 @@ layout: post
 title: "Einführungsvorträge im Sommersemester '19"
 categories: learning
 excludeRSS: true
-author: itaton
+authors:
+  - itaton
 ---
 
 Auch im Sommersemester 19 wird es Einführungsvorträge zu relevanten Themenbereichen geben.

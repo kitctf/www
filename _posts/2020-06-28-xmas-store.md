@@ -3,7 +3,8 @@ layout: post
 title: "CSCG 2020: Xmas Shopping Site"
 categories: writeups cscg20
 tags: exploitation
-author: mawalu
+authors:
+  - mawalu
 ---
 
 Like a few other members of KITCTF I participated in the 2020 Cyber Security Challenge Germany Qualification. This is a writeup for "Xmas Shopping Site", one of the three web challenges that were part of the CTF.

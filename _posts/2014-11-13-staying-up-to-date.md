@@ -2,7 +2,8 @@
 layout: post
 title: "Staying up-to-date in infosec"
 categories: learning
-author: saelo
+authors:
+  - saelo
 ---
 
 tl;dr just subscribe to [r/netsec on reddit](http://www.reddit.com/r/netsec/).\\

@@ -2,7 +2,9 @@
 layout: post
 title: "Talk: Elliptic Curves"
 categories: learning
-author: Benedikt, Liam
+authors:
+  - Benedikt
+  - Liam
 ---
 
 We look at curves that look like fish and do some maths to break some crypto. Benedikt shows us how.

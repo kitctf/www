@@ -2,7 +2,8 @@
 layout: post
 title: "Talk: Insecure GitHub Actions"
 categories: learning
-author: intrigus
+authors:
+  - intrigus
 ---
 
 You know GitHub Actions, these small building blocks that make your dev life easier… But they can also get you pwned in no time, if you are not careful.

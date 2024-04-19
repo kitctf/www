@@ -2,7 +2,8 @@
 layout: post
 title: "Talk: Frida Game Hacking"
 categories: learning
-author: mawalu
+authors:
+  - mawalu
 ---
 
 CTF challenges are usually well-behaved programs. But what do you do in more complex cases such as games, messenger applications (e.g. e2e encryption) or mobile applications (e.g. certificate pinning)?

@@ -3,7 +3,8 @@ layout: post
 title: "Boston Key Party 2015 'Wood Island' writeup"
 categories: writeups bkp2015
 tags: crypto
-author: OOTS
+authors:
+  - OOTS
 ---
 
 Originally, I wanted to write up the write-up for the [airport challenge](/writeups/bkp2015/airport/), but since Niklas has already done that, I'm doing the *Wood Island* challenge instead. It was worth 150 points on the [Boston Key Party 2015](http://bostonkey.party/).

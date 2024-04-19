@@ -3,7 +3,8 @@ layout: post
 title: "9447 CTF 2014 'europe' writeup"
 categories: writeups 9447ctf2014
 tags: exploitation
-author: saelo
+authors:
+  - saelo
 ---
 
 During 9447 CTF 2014, [europe]({{ site.url }}/files/9447ctf2014/europe) was a series of 3 exploitation challenges, all using the same binary. Each one would yield a different flag and in total those three flags where worth 700 points (200, 120, 380).

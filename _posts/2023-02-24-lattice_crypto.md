@@ -2,7 +2,9 @@
 layout: post
 title: "Talk: Lattice-based Cryptography"
 categories: learning
-author: Robert, Liam
+authors:
+  - Robert
+  - Liam
 ---
 
 Continuing our theme of learning about foundations of modern crypto algorithms, Robert introduced us to lattices. Specifically we covered:
