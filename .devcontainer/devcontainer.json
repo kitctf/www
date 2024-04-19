@@ -1,0 +1,6 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "forwardPorts": [ 4000 ],
+    "postCreateCommand": "bundle install",
+    "postStartCommand": "bundle exec jekyll serve --drafts --future --unpublished -V"
+}
