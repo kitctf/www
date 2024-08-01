@@ -34,7 +34,10 @@ events = [
     CTFEvent("KalmarCTF 2024", ctftime_id=2227),
     CTFEvent("Midnight Sun CTF 2024 Quals", ctftime_id=2247),
     CTFEvent("CyberSecurityRumble Quals", ctftime_id=2224),
-    CTFEvent("DEF CON CTF Qualifier 2024", ctftime_id=2229)
+    CTFEvent("DEF CON CTF Qualifier 2024", ctftime_id=2229),
+    CTFEvent("FAUST CTF 2024", ctftime_id=2351),
+    CTFEvent("Hack.lu CTF 2024", ctftime_id=2438),
+    CTFEvent("Platypwn 2024", ctftime_id=2407)
     
 ]
 # DON'T CHANGE ME
