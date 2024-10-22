@@ -12,7 +12,7 @@ KITCTF is part of the German Team of Teams [Sauercloud](https://ctftime.org/team
 
 You are probably here because you want to hack with us.
 
-Sure, come by our weekly in-person meetings or join us for a CTF on the weekend. We meet every Thursday in the computer science main building [50.34](https://www.kit.edu/campusplan/) in room -120 (sometimes alternatively in room -118). Details to upcoming meetings and CTFs are communicated in our Slack. You can join by introducing yourself at [team@kitctf.de](mailto:team@kitctf.de).
+Sure, come by our weekly in-person meetings or join us for a CTF on the weekend. We meet every Thursday in the computer science main building [50.34](https://www.kit.edu/campusplan/) in room -120 (sometimes alternatively in room -118). Details to upcoming meetings and CTFs are communicated in our Mattermost. You can join by introducing yourself at [team@kitctf.de](mailto:team@kitctf.de).
 
 ## Why play CTFs?
 
