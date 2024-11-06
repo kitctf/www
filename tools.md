@@ -7,6 +7,17 @@ permalink: /tools/
 Here we want to present some of the tools that KITCTF members have developed
 to help us solve CTF challenges more efficiently.
 
+## [dbgtools](https://github.com/two-heart/dbgtools)
+
+dbgtools is a GDB and pwndbg extension. It aims to remove friction and repetition from binary exploitation and reverse engineering.
+
+Main use cases include:
+
+* Scripting gdb from pwntools
+* Flexible tracing of a whole binary execution with gdb
+* Various commands that make common exploitation steps quicker
+
+
 ## [libc-database](https://github.com/niklasb/libc-database)
 
 Often in binary exploitation scenarios on Linux, we do not have enough information
