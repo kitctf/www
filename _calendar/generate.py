@@ -17,31 +17,11 @@ class CTFEvent:
 
 # CHANGE ME
 events = [
-    CTFEvent("ENOWARS 7", ctftime_id=2040),
-    CTFEvent("DEF CON Finals", begin="2023-08-10", end="2023-08-13"),
-    CTFEvent("CCCamp 2023", ctftime_id=2048),
-    CTFEvent("Midnight Sun CTF 2023 Finals", ctftime_id=1922),
-    CTFEvent("SekaiCTF 2023", ctftime_id=1923),
-    CTFEvent("HITCON CTF 2023 Quals", ctftime_id=2019),
-    CTFEvent("FAUST CTF 2023", ctftime_id=2011),
-    CTFEvent("CyberSecurityRumble Finals 2023", begin="2023-09-28T13:00:00+02:00", end="2023-09-30T13:00:00+02:00"),
-    CTFEvent("Hack.lu CTF 2023", ctftime_id=1921),
-    CTFEvent("HITCON CTF 2023 Final", ctftime_id=2035),
-    CTFEvent("Platypwn 2023", ctftime_id=2082),
-    CTFEvent("LakeCTF", ctftime_id=2069),
-    CTFEvent("SquareCTF", ctftime_id=2111),
-    CTFEvent("saarCTF 2023", ctftime_id=2049),
-    CTFEvent("KalmarCTF 2024", ctftime_id=2227),
-    CTFEvent("Midnight Sun CTF 2024 Quals", ctftime_id=2247),
-    CTFEvent("CyberSecurityRumble Quals", ctftime_id=2224),
-    CTFEvent("DEF CON CTF Qualifier 2024", ctftime_id=2229),
-    CTFEvent("FAUST CTF 2024", ctftime_id=2351),
-    CTFEvent("Hack.lu CTF 2024", ctftime_id=2438),
-    CTFEvent("Platypwn 2024", ctftime_id=2407),
     CTFEvent("GlacierCTF 2024", ctftime_id=2402),
     CTFEvent("saarCTF 2024", ctftime_id=2490),
-    CTFEvent("LakeCTF Quals 24-25", ctftime_id=2502)
-    
+    CTFEvent("LakeCTF Quals 24-25", ctftime_id=2502),
+    CTFEvent("snakeCTF 2024 Finals", ctftime_id=2419)
+
 ]
 # DON'T CHANGE ME
 
