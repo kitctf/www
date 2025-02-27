@@ -17,10 +17,15 @@ class CTFEvent:
 
 # CHANGE ME
 events = [
-    CTFEvent("GlacierCTF 2024", ctftime_id=2402),
-    CTFEvent("saarCTF 2024", ctftime_id=2490),
-    CTFEvent("LakeCTF Quals 24-25", ctftime_id=2502),
-    CTFEvent("snakeCTF 2024 Finals", ctftime_id=2419)
+    CTFEvent("Remedy CTF 2025", ctftime_id=2618),
+    CTFEvent("LA CTF 2025", ctftime_id=2592),
+    CTFEvent("PwnMe CTF Quals 2025", ctftime_id=2658),
+    CTFEvent("CSCG 2025 Start", begin="2025-03-01T17:00:00", end="2025-03-01T17:00:00", comment="Play at https://play.cscg.live/"),
+    CTFEvent("KalmarCTF 2025", ctftime_id=2599),
+    CTFEvent("SwampCTF 2025", ctftime_id=2573),
+    CTFEvent("PlaidCTF 2025", ctftime_id=2508),
+    CTFEvent("Midnight Sun CTF 2025 Quals", ctftime_id=2632),
+    CTFEvent("CSCG 2025 End", begin="2025-05-01T16:00:00", end="2025-05-01T16:00:00", comment="Play at https://play.cscg.live/"),
 
 ]
 # DON'T CHANGE ME
