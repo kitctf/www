@@ -25,7 +25,7 @@ events = [
     CTFEvent("SwampCTF 2025", ctftime_id=2573),
     CTFEvent("PlaidCTF 2025", ctftime_id=2508),
     CTFEvent("Midnight Sun CTF 2025 Quals", ctftime_id=2632),
-    CTFEvent("CSCG 2025 End", begin="2025-05-01T16:00:00", end="2025-05-01T16:00:00", comment="Play at https://play.cscg.live/"),
+    CTFEvent("CSCG 2025 End", begin="2025-05-01T16:00:00", end="2025-05-02T16:00:00", comment="Play at https://play.cscg.live/"),
 
 ]
 # DON'T CHANGE ME
