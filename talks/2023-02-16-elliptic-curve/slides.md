@@ -37,7 +37,7 @@ Goal: find cyclic group with hard DLP that allows for smaller key sizes and effi
 
 Elliptic Curve equation: $y^2 = x^3 + ax + b$
 
-![Elliptic Curve](https://c.m5w.de/uploads/e1e09d8b-db2c-4697-97f2-236190e83051.png)
+![Elliptic Curve](https://pad.kitctf.de/uploads/e1e09d8b-db2c-4697-97f2-236190e83051.png)
 
 ---
 
