@@ -36,7 +36,7 @@ Martin
 
 ### Blockchain: Visual
 
-![](/imgs/65dd4895-47b7-4b90-91c2-a93afebbb177.png)
+![](/talks/2023-02-09-web3/65dd4895-47b7-4b90-91c2-a93afebbb177.png)
 
 ----
 
