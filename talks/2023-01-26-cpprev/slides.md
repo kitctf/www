@@ -183,7 +183,7 @@ struct CtfTeam {
 
 Contructors and Identifying Inheritance
 
-<img style="border-width:0; background: transparent;" src="https://pad.kitctf.de/uploads/c011d4ea-20ee-4ff8-8372-bf4eb643d365.png" width="200">
+<img style="border-width:0; background: transparent;" src="/imgs/c011d4ea-20ee-4ff8-8372-bf4eb643d365.png" width="200">
 
 ----
 
@@ -282,7 +282,7 @@ it depends
 ----
 
 it depends
-![](https://pad.kitctf.de/uploads/22cd2db9-2df0-43e8-9ec6-bff23597aa8e.png)
+![](/imgs/22cd2db9-2df0-43e8-9ec6-bff23597aa8e.png)
 
 ----
 
@@ -330,7 +330,7 @@ struct vector_<TemplateType> {
 
 ----
 
-<img style="border-width:0; background: transparent" src="https://pad.kitctf.de/uploads/9bc2cc8e-7b11-4fe8-a5bf-fcef6145bb1c.png">
+<img style="border-width:0; background: transparent" src="/imgs/9bc2cc8e-7b11-4fe8-a5bf-fcef6145bb1c.png">
 
 call graph of a vector<char> push back in O1
 

@@ -1,4 +1,4 @@
-<img src="https://pad.kitctf.de/uploads/43f334f3-76d1-4d77-9405-34c21f8ab974.png" height=500>
+<img src="/imgs/43f334f3-76d1-4d77-9405-34c21f8ab974.png" height=500>
 Taming the dragon
 
 Advanced Ghidra by Simon & Liam
@@ -13,7 +13,7 @@ Advanced Ghidra by Simon & Liam
 ----
 
 ## but then we needed to add some elements in the middle...
-<img src="https://pad.kitctf.de/uploads/1edad03a-9f4e-4b5e-bf28-108f1acf6407.png" height=200>
+<img src="/imgs/1edad03a-9f4e-4b5e-bf28-108f1acf6407.png" height=200>
 
 
 ----
@@ -28,18 +28,18 @@ Advanced Ghidra by Simon & Liam
 
 Ever wondered about:
 
-![](https://pad.kitctf.de/uploads/cb1b2c1f-f12a-4749-8987-6fd4d92cb349.png)
+![](/imgs/cb1b2c1f-f12a-4749-8987-6fd4d92cb349.png)
 
 ----
 
 you need to place just the right version of a copyrighted pdf here
-![](https://pad.kitctf.de/uploads/6b617302-729b-47fa-8741-ac60a1cb4dad.png)
+![](/imgs/6b617302-729b-47fa-8741-ac60a1cb4dad.png)
 this is pain
 
 ----
 
 Just use this script: https://github.com/meenmachine1/ghidra-manuals
-![](https://pad.kitctf.de/uploads/71c120bb-8fb1-4d1c-898e-e92ca3b59bb1.png)
+![](/imgs/71c120bb-8fb1-4d1c-898e-e92ca3b59bb1.png)
 
 ---
 
@@ -58,25 +58,25 @@ We want to set a breakpoint on main for a stripped binary
 ----
 
 1. Check the memory map in Ghidra
-<img src="https://pad.kitctf.de/uploads/a1003c1e-745b-49b2-836d-d09b920689de.png" height=500>
+<img src="/imgs/a1003c1e-745b-49b2-836d-d09b920689de.png" height=500>
 
 ----
 
 2. Subtract from address in disassembly
 
 
-![](https://pad.kitctf.de/uploads/a627b517-8068-44af-a9e1-06417ec62346.png)
+![](/imgs/a627b517-8068-44af-a9e1-06417ec62346.png)
 
 ----
 
 3. Check where the binary is mapped in debugger
-<img src="https://pad.kitctf.de/uploads/167b5e62-32a5-4159-8dfb-a5620aebeee4.png" height=500>
+<img src="/imgs/167b5e62-32a5-4159-8dfb-a5620aebeee4.png" height=500>
 
 ----
 
 4. Set a breakpoint
                                                                                         
-![](https://pad.kitctf.de/uploads/09620860-a4f0-4678-9de5-9fe12ea1b640.png)
+![](/imgs/09620860-a4f0-4678-9de5-9fe12ea1b640.png)
 
 ----
 
@@ -84,7 +84,7 @@ We want to set a breakpoint on main for a stripped binary
 
 pwndbg can help you
                                                                                         
-![](https://pad.kitctf.de/uploads/9488d8b4-c0c6-4e7b-a87d-3f46ac0c6ab1.png)
+![](/imgs/9488d8b4-c0c6-4e7b-a87d-3f46ac0c6ab1.png)
 
 ----
 
@@ -94,12 +94,12 @@ pwndbg + r2ghidra is your friend
 
 Install https://github.com/radareorg/r2ghidra and
 
-![](https://pad.kitctf.de/uploads/ae556598-e942-4c87-a248-5cc0ce98771b.png)
+![](/imgs/ae556598-e942-4c87-a248-5cc0ce98771b.png)
 
 
 ----
 
-<img src="https://pad.kitctf.de/uploads/5765c943-ba92-4d5b-8cc5-b49880af5279.png" height=700>
+<img src="/imgs/5765c943-ba92-4d5b-8cc5-b49880af5279.png" height=700>
 
 ----
 
@@ -171,10 +171,10 @@ Someone **statically** linked $LIBRARY, **stripped** the binary and now Ghidra l
 
 ----
 
-<img class="fragment" data-fragment-index="1" height="550px" src="https://pad.kitctf.de/uploads/61b0047d-f51f-4599-a1f0-dac0d4cd1380.png"/>
-<img class="fragment" data-fragment-index="2" height="550px" src="https://pad.kitctf.de/uploads/ff3bb8d9-0c06-4a66-82f8-9ae0d5823e56.png"/>
-<img class="fragment" data-fragment-index="3" height="550px" src="https://pad.kitctf.de/uploads/d25d3eaa-8b58-4934-a52a-3ded326068ef.png"/>
-<img class="fragment" data-fragment-index="4" height="550px" src="https://pad.kitctf.de/uploads/ca1fadb9-0ffc-46b4-8b94-90188aefe905.png"/>
+<img class="fragment" data-fragment-index="1" height="550px" src="/imgs/61b0047d-f51f-4599-a1f0-dac0d4cd1380.png"/>
+<img class="fragment" data-fragment-index="2" height="550px" src="/imgs/ff3bb8d9-0c06-4a66-82f8-9ae0d5823e56.png"/>
+<img class="fragment" data-fragment-index="3" height="550px" src="/imgs/d25d3eaa-8b58-4934-a52a-3ded326068ef.png"/>
+<img class="fragment" data-fragment-index="4" height="550px" src="/imgs/ca1fadb9-0ffc-46b4-8b94-90188aefe905.png"/>
 <p class="fragment" data-fragment-index="5">
 So much FUN 😬
 </p>
@@ -201,7 +201,7 @@ So much FUN 😬
 
 - Import `.so` with symbols into Ghidra, decompile it
 - "Tools" -> "Function ID" -> "Create new empty FidDb..."
-![](https://pad.kitctf.de/uploads/86266390-d21e-441e-973c-71a07dd37736.png)
+![](/imgs/86266390-d21e-441e-973c-71a07dd37736.png)
 - Enter a filename "$LIBRARY.fidb"
 
 ----
@@ -209,7 +209,7 @@ So much FUN 😬
 ## Creating a Function ID Database - II
 
 - "Tools" -> "Function ID" -> Populate FidDb from programms..."
-![](https://pad.kitctf.de/uploads/a1c4d835-602e-43db-9c7f-7c1be64ee6a4.png)
+![](/imgs/a1c4d835-602e-43db-9c7f-7c1be64ee6a4.png)
 
 ----
 
@@ -217,15 +217,15 @@ So much FUN 😬
 - Add library name, version and variant are not really relevant for us
 - Select a root folder. **ALL files** in that folder will be added to the database
 
-<img height="450px" src="https://pad.kitctf.de/uploads/39c721c4-85e6-494b-836f-ce0ee6de201d.png"/>
-<img height="450px" src="https://pad.kitctf.de/uploads/5fbeff43-c6e6-46df-9f99-5e9acbad6468.png"/>
+<img height="450px" src="/imgs/39c721c4-85e6-494b-836f-ce0ee6de201d.png"/>
+<img height="450px" src="/imgs/5fbeff43-c6e6-46df-9f99-5e9acbad6468.png"/>
 
 ----
 
 ## Creating a Function ID Database - IV
 🎉 Your database is ready
 
-![](https://pad.kitctf.de/uploads/120832c8-3f7c-4533-8116-43f8a4490450.png)
+![](/imgs/120832c8-3f7c-4533-8116-43f8a4490450.png)
 
 
 ----
@@ -238,9 +238,9 @@ Without this, Ghidra seems to not apply function IDs!
 
 <p>
 <span class="fragment" data-fragment-index="1">Before:</span>
-<img class="fragment" data-fragment-index="1" src="https://pad.kitctf.de/uploads/5425b09d-8538-49cc-92b0-c2a50f762033.png"/>
+<img class="fragment" data-fragment-index="1" src="/imgs/5425b09d-8538-49cc-92b0-c2a50f762033.png"/>
 <span class="fragment" data-fragment-index="2">After:</span>
-<img class="fragment" data-fragment-index="2" src="https://pad.kitctf.de/uploads/12bd21f4-5962-42f5-87c4-2893115d61d1.png"/>
+<img class="fragment" data-fragment-index="2" src="/imgs/12bd21f4-5962-42f5-87c4-2893115d61d1.png"/>
 </p>
 
 ----
@@ -289,14 +289,14 @@ Spec: https://github.com/Garmelon/mima-tools#specification
 ----
 
 - "File" -> "New" -> "Other. ..." or (Strg+N) to open the new project wizard.
-![](https://pad.kitctf.de/uploads/f2457e54-86a3-45f8-916b-913d84786828.png)
+![](/imgs/f2457e54-86a3-45f8-916b-913d84786828.png)
 
 ----
-![](https://pad.kitctf.de/uploads/ac9a109b-34a4-494e-ba0c-b098c8e49c4b.png)
+![](/imgs/ac9a109b-34a4-494e-ba0c-b098c8e49c4b.png)
 
 ----
 
-![](https://pad.kitctf.de/uploads/e5752cae-db73-4eaf-9ef0-d60311277f71.png)
+![](/imgs/e5752cae-db73-4eaf-9ef0-d60311277f71.png)
 
 ----
 
@@ -529,12 +529,12 @@ With full semantics, Ghidras decompiler magically works!
 ---
 
 Before
-<img height="550px" src="https://pad.kitctf.de/uploads/fca7c1ef-0571-4982-82b7-625405c6ee09.png"/>
+<img height="550px" src="/imgs/fca7c1ef-0571-4982-82b7-625405c6ee09.png"/>
 
 ----
 
 After
-<img height="550px" src="https://pad.kitctf.de/uploads/341d4dee-82ea-4ab4-afaf-10435f03e728.png"/>
+<img height="550px" src="/imgs/341d4dee-82ea-4ab4-afaf-10435f03e728.png"/>
 
 ----
 
@@ -551,6 +551,6 @@ After
 
 Questions? Comments?
 
-![](https://pad.kitctf.de/uploads/a9930763-ff34-46e6-8991-fdde9394ae2f.png)
+![](/imgs/a9930763-ff34-46e6-8991-fdde9394ae2f.png)
 
 ---
