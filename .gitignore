@@ -1,0 +1,11 @@
+*.gem
+*.swp
+*~
+_site/
+.jekyll-cache/
+.idea
+venv
+bin/
+lib/
+pyvenv.cfg
+

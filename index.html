@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="upfront">
+  {% for post in site.pages %}
+    {% if post.url == "/meetings/" %}
+      {{ post.content | markdownify }} 
+    {% endif %}
+  {% endfor %}
+  </div>
+
+    <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.categories.sticky %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }} - Sticky</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+    {% for post in site.posts %}
+      {% assign sticky = false %}
+      {% for cat in post.categories %}
+        {% if cat == 'sticky' %}
+          {% assign sticky = true %}
+        {% endif %}
+      {% endfor %}
+      {% unless sticky %}
+      {% if post.external_url %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.external_url}}">{{ post.title }}</a>
+      </li>
+      {% else %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+      </li>
+      {% endif %}
+     {% endunless %}
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
