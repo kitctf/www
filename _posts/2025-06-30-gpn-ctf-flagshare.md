@@ -116,7 +116,7 @@ Typically, **only individual players within teams** were involved in these incid
 
 ### Zerolight
 - One player was active and submitted flags on both **Zerolight** and **kBxAc**.
-- A known **fake flag** was also submitted for `intro-web-2` at`2025-06-20 13:28:51`
+- A known **fake flag** was also submitted for `intro-web-2` at `2025-06-20 13:28:51`
 
 ### capablanca
 - Submitted a flag for `restricted-oracle` belonging to **RaptX** at `2025-06-21 23:59:02`.
