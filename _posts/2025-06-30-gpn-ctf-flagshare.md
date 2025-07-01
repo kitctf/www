@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Report: Flag Sharing Incidents during GPN CTF 2025"
+title: "Report: Flag Sharing Incidents During GPN CTF 2025"
 categories: gpnctf-23
 excerpt: >
   <p>We implemented <i>dynamic flags</i> for GPN CTF 2025, and got more than we wanted.</p>
