@@ -45,6 +45,7 @@ Typically, **only individual players within teams** were involved in these incid
 ---
 
 ## Involved Teams and Incidents
+All times are provided in UTC+2.
 
 ### 0bug
 - Submitted a flag for `nasa` originating from **NOVA** at `2025-06-21 09:53:25`.
