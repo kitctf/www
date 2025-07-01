@@ -13,7 +13,7 @@ excerpt: >
 
 Last year we organized GPN CTF 2024. During the event we received multiple reports from participants via Discord stating they had been approached by others asking for flags. In most cases, we responded by handing out an invalid but realistic fake flag. We later used these flags to identify teams engaging in flag-sharing.
 
-Given the frequency of these incidents, we decided to implement **dynamic, team-specific flags** for the 2025 GPN CTF.
+Given the frequency of these incidents, we decided to implement **dynamic, team-specific flags** for GPN CTF 2025.
 
 ## Dynamic Flags in 2025
 
