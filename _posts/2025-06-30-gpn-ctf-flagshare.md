@@ -150,7 +150,7 @@ We asked all involved teams to open a ticket in order to investigate the inciden
 > During the competition, we opened three support tickets requesting the removal of a newly joined member after observing that he was asking for solutions and appeared to be seeking them on behalf of another team. This behavior is unethical, violates competition rules, and is not tolerated by our team. Although the member was not removed from the CTF platform, we promptly removed him from our Team server. He submitted a flag for a challenge we had already solved while continuing to request additional solutions on private messages, requests we explicitly denied.
 > 
 > A second member, also participating with our team for the first time, submitted a flag for a different challenge. He provided a plausible explanation of how he obtained it, and based on the information available at the time, the Captain chose to trust him. At no point did he demonstrate any intention to share or request flags. However, after the announcement of the flag sharing, when we followed up for further clarification, he gave an explanation we were unable to verify. 
-Both of these individuals were removed and banned from the team.
+> Both of these individuals were removed and banned from the team.
 > 
 > We acted in good faith throughout the competition and took proactive steps to maintain its integrity. As well as collaborated to the investigation when we were told about the irregularities.
 
