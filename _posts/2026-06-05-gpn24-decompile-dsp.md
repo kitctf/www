@@ -6,7 +6,7 @@ authors:
   - Alkalem
 ---
 
-This talk was held at GPN24, running from June 04, 2026 to June 07, 2026 at ZKM and HfG in Karlsruhe.
+This talk was held at [GPN24](https://entropia.de/GPN24), running from June 04, 2026 to June 07, 2026 at ZKM and HfG in Karlsruhe.
 
 - The slides are here: [Slides](/talks/2026-06-05-gpn24-decompile-dsp/decompiler-slides.pdf)
 - The link to the recording will be added here once available
